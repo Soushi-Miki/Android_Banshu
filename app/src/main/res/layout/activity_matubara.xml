@@ -97,18 +97,18 @@
         app:layout_constraintTop_toBottomOf="@+id/megaButton" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/appCompatButton"
+        android:id="@+id/matubaraMidokoro1Button"
         android:layout_width="wrap_content"
         android:layout_height="40sp"
         android:layout_marginStart="34dp"
         android:layout_marginTop="40dp"
-        android:text="見どころ1"
+        android:text="見どころ1：場所を確認"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button5"
+        android:id="@+id/matubaraMidokoro2Button"
         android:layout_width="wrap_content"
         android:layout_height="40sp"
         android:layout_marginStart="34dp"
@@ -125,7 +125,7 @@
         android:layout_marginTop="20dp"
         android:text="10月14日・15日とも桟敷前で練り合わせ"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appCompatButton" />
+        app:layout_constraintTop_toBottomOf="@+id/matubaraMidokoro1Button" />
 
     <TextView
         android:id="@+id/textView20"
@@ -135,6 +135,6 @@
         android:layout_marginTop="20dp"
         android:text="10月15日御旅山での練り合わせ"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintTop_toBottomOf="@+id/matubaraMidokoro2Button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

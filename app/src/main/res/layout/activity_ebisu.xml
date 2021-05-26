@@ -114,21 +114,21 @@
         android:layout_marginTop="10dp"
         android:text="10月9日午前9時ごろから恵美酒宮名物台場練り"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/midokoro1Button" />
+        app:layout_constraintTop_toBottomOf="@+id/ebisuMidokoro1Button" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/midokoro1Button"
-        android:layout_width="77dp"
+        android:id="@+id/ebisuMidokoro1Button"
+        android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:layout_marginStart="34dp"
         android:layout_marginTop="20dp"
-        android:text="見どころ1"
+        android:text="見どころ1：場所を確認"
         android:textSize="8sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/midokoro2Button"
+        android:id="@+id/ebisuMidokoro2Button"
         android:layout_width="77dp"
         android:layout_height="30dp"
         android:layout_marginStart="34dp"
@@ -146,10 +146,10 @@
         android:layout_marginTop="10dp"
         android:text="10月9日午後2時ごろから恵美酒宮名物台場練り"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/midokoro2Button" />
+        app:layout_constraintTop_toBottomOf="@+id/ebisuMidokoro2Button" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/midokoro3Button"
+        android:id="@+id/ebisuMidokoro3Button"
         android:layout_width="77dp"
         android:layout_height="30dp"
         android:layout_marginStart="34dp"
@@ -166,12 +166,12 @@
         android:layout_marginStart="34dp"
         android:layout_marginTop="10dp"
         android:background="#FFFFFF"
-        android:text="10月9日午後9時ごろから本宮の夜のクライマックス"
+        android:text="10月9日午後7時ごろ4町差し別れ"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/midokoro3Button" />
+        app:layout_constraintTop_toBottomOf="@+id/ebisuMidokoro3Button" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/midokoro4Button"
+        android:id="@+id/ebisuMidokoro4Button"
         android:layout_width="77dp"
         android:layout_height="30dp"
         android:layout_marginStart="34dp"
@@ -187,7 +187,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="10dp"
-        android:text="10月9日午後7時ごろ4町差し別れ"
+        android:text="10月9日午後9時ごろから向島橋の上で練り"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/midokoro4Button" />
+        app:layout_constraintTop_toBottomOf="@+id/ebisuMidokoro4Button" />
 </androidx.constraintlayout.widget.ConstraintLayout>

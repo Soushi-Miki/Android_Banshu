@@ -88,18 +88,18 @@
         app:layout_constraintTop_toBottomOf="@+id/kitawakiButton" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button4"
+        android:id="@+id/oosioMidokoro1Button"
         android:layout_width="wrap_content"
         android:layout_height="39dp"
         android:layout_marginStart="34dp"
         android:layout_marginTop="20dp"
-        android:text="見どころ1"
+        android:text="見どころ1：場所を確認"
         android:textSize="8sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView21" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button6"
+        android:id="@+id/oosioMidokoro2Button"
         android:layout_width="wrap_content"
         android:layout_height="39dp"
         android:layout_marginStart="32dp"
@@ -110,7 +110,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button7"
+        android:id="@+id/oosioMidokoro3Button"
         android:layout_width="wrap_content"
         android:layout_height="39dp"
         android:layout_marginStart="34dp"
@@ -121,7 +121,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button8"
+        android:id="@+id/oosioMidokoro4Button"
         android:layout_width="wrap_content"
         android:layout_height="39dp"
         android:layout_marginStart="34dp"
@@ -139,7 +139,7 @@
         android:layout_marginTop="10dp"
         android:text="10月14日午前11時ごろ宮入り・練り合わせ"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/oosioMidokoro1Button" />
 
     <TextView
         android:id="@+id/textView23"
@@ -159,7 +159,7 @@
         android:layout_marginTop="10dp"
         android:text="10月14日午後0時30分練り合わせ"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        app:layout_constraintTop_toBottomOf="@+id/oosioMidokoro2Button" />
 
     <TextView
         android:id="@+id/textView25"
@@ -169,7 +169,7 @@
         android:layout_marginTop="10dp"
         android:text="10月15日午前8時ごろ御面掛神事・午前10時ごろ宮入り"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7" />
+        app:layout_constraintTop_toBottomOf="@+id/oosioMidokoro3Button" />
 
     <TextView
         android:id="@+id/textView26"
@@ -189,5 +189,5 @@
         android:layout_marginTop="10dp"
         android:text="10月15日午後8時ごろ屋台練り合わせ"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button8" />
+        app:layout_constraintTop_toBottomOf="@+id/oosioMidokoro4Button" />
 </androidx.constraintlayout.widget.ConstraintLayout>

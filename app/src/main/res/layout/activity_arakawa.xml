@@ -87,18 +87,18 @@
         app:layout_constraintTop_toBottomOf="@+id/inokutiButton" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button9"
+        android:id="@+id/arakawaMidokoro1Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="25dp"
-        android:text="見どころ1"
+        android:text="見どころ1：場所を確認"
         android:textSize="10sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView28" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button10"
+        android:id="@+id/arakawaMidokoro2Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
@@ -109,7 +109,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView29" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button11"
+        android:id="@+id/arakawaMidokoro3Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
@@ -127,7 +127,7 @@
         android:layout_marginTop="20dp"
         android:text="10月第3日曜日午前9時ごろ屋台宮入り"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button9" />
+        app:layout_constraintTop_toBottomOf="@+id/arakawaMidokoro1Button" />
 
     <TextView
         android:id="@+id/textView30"
@@ -137,7 +137,7 @@
         android:layout_marginTop="20dp"
         android:text="10月第3日曜日拝殿練り"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button10" />
+        app:layout_constraintTop_toBottomOf="@+id/arakawaMidokoro2Button" />
 
     <TextView
         android:id="@+id/textView31"
@@ -147,5 +147,5 @@
         android:layout_marginTop="20dp"
         android:text="10月第3日曜日正午ごろ御旅所"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button11" />
+        app:layout_constraintTop_toBottomOf="@+id/arakawaMidokoro3Button" />
 </androidx.constraintlayout.widget.ConstraintLayout>

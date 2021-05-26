@@ -54,5 +54,33 @@ class Oosio : AppCompatActivity() {
             mapIntent.setPackage("com.google.android.apps.maps")
             startActivity(mapIntent)
         }
+        oosioMidokoro1Button.setOnClickListener {
+            val gmmIntentUri =
+                    Uri.parse("geo:0,0?q=姫路市大塩町汐咲1丁目50 大塩天満宮")
+            val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+            mapIntent.setPackage("com.google.android.apps.maps")
+            startActivity(mapIntent)
+        }
+        oosioMidokoro2Button.setOnClickListener {
+            val gmmIntentUri =
+                    Uri.parse("geo:0,0?q=姫路市大塩町汐咲1丁目 大塩公園")
+            val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+            mapIntent.setPackage("com.google.android.apps.maps")
+            startActivity(mapIntent)
+        }
+        oosioMidokoro3Button.setOnClickListener {
+            val gmmIntentUri =
+                    Uri.parse("geo:0,0?q=姫路市大塩町汐咲1丁目50 大塩天満宮")
+            val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+            mapIntent.setPackage("com.google.android.apps.maps")
+            startActivity(mapIntent)
+        }
+        oosioMidokoro4Button.setOnClickListener {
+            val gmmIntentUri =
+                    Uri.parse("geo:0,0?q=姫路市大塩町汐咲1丁目 大塩公園")
+            val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+            mapIntent.setPackage("com.google.android.apps.maps")
+            startActivity(mapIntent)
+        }
     }
 }

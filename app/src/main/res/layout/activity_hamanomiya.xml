@@ -117,18 +117,18 @@
         app:layout_constraintTop_toBottomOf="@+id/minatoButton" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
+        android:id="@+id/hamanomiyaMidokoro1Button"
         android:layout_width="wrap_content"
         android:layout_height="34dp"
         android:layout_marginStart="34dp"
         android:layout_marginTop="15dp"
-        android:text="見どころ1"
+        android:text="見どころ1：場所を確認"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button2"
+        android:id="@+id/hamanomiyaMidokoro2Button"
         android:layout_width="wrap_content"
         android:layout_height="34dp"
         android:layout_marginStart="34dp"
@@ -139,7 +139,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button3"
+        android:id="@+id/hamanomiyaMidokoro3Button"
         android:layout_width="wrap_content"
         android:layout_height="34dp"
         android:layout_marginStart="34dp"
@@ -157,7 +157,7 @@
         android:layout_marginTop="10dp"
         android:text="10月8日正午ごろ台場差し"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/hamanomiyaMidokoro1Button" />
 
     <TextView
         android:id="@+id/textView16"
@@ -167,7 +167,7 @@
         android:layout_marginTop="10dp"
         android:text="10月9日午前10時ごろ・午後6時ごろ台場差し"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/hamanomiyaMidokoro2Button" />
 
     <TextView
         android:id="@+id/textView17"
@@ -175,7 +175,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="10dp"
-        android:text="10月9日午後2時ごろ台場差し"
+        android:text="10月9日午後2時ごろ宮公園台場差し"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/hamanomiyaMidokoro3Button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
