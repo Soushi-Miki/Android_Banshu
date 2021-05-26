@@ -10,11 +10,12 @@
         android:id="@+id/calenderButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="322dp"
+        android:layout_marginTop="224dp"
         android:fontFamily="sans-serif-black"
-        android:text="日程を表示する"
+        android:text="日程を確認する"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,11 +23,11 @@
         android:id="@+id/shrineNameButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="43dp"
-        android:layout_marginBottom="172dp"
+        android:layout_marginBottom="256dp"
         android:fontFamily="sans-serif-black"
         android:text="神社の名前で確認する"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

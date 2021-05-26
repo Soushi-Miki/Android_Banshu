@@ -16,6 +16,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Calender)
 
         }
+        shrineNameButton.setOnClickListener {
+            val name = Intent(this,nameCheck::class.java)
+            startActivity(name)
+        }
 
 
     }

@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Banshu">
-        <activity android:name=".shrineName"></activity>
+        <activity android:name=".Usuki"></activity>
+        <activity android:name=".Arakawa" />
+        <activity android:name=".Oosio" />
+        <activity android:name=".Matubara" />
+        <activity android:name=".Hamanomiya" />
+        <activity android:name=".Ebisu" />
+        <activity android:name=".calender2" />
+        <activity android:name=".nameCheck" />
+        <activity android:name=".shrineName" />
         <activity android:name=".BanshuCalender" />
         <activity android:name=".MainActivity">
             <intent-filter>
