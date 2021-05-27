@@ -11,7 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
+        android:fontFamily="sans-serif-black"
         android:text="屋台蔵の場所を確認する"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,7 +24,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="60dp"
+        android:background="#FF6D00"
+        android:fontFamily="serif"
         android:text="栄町"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -32,7 +37,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="60dp"
+        android:background="#FD6868"
+        android:fontFamily="serif"
         android:text="東堀"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/sakaematiButton"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -42,7 +50,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="60dp"
+        android:background="#D50000"
+        android:fontFamily="serif"
         android:text="都倉"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/higasihoriButton"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -52,7 +63,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="20dp"
+        android:background="#FFD600"
+        android:fontFamily="serif"
         android:text="御幸"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sakaematiButton" />
 
@@ -62,7 +76,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="20dp"
+        android:background="#FF0073"
+        android:fontFamily="serif"
         android:text="玉地"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/gokouButton"
         app:layout_constraintTop_toBottomOf="@+id/higasihoriButton" />
 
@@ -72,7 +89,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="20dp"
+        android:background="#64DD17"
+        android:fontFamily="serif"
         android:text="清水"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/tamatiButton"
         app:layout_constraintTop_toBottomOf="@+id/tokuraButton" />
 
@@ -82,7 +102,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="20dp"
+        android:background="#00B8D4"
+        android:fontFamily="serif"
         android:text="北細江"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gokouButton" />
 
@@ -92,7 +115,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="20dp"
+        android:background="#C195FF"
+        android:fontFamily="serif"
         android:text="小瀬"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/kitahosoeButton"
         app:layout_constraintTop_toBottomOf="@+id/tamatiButton" />
 
@@ -101,7 +127,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="33dp"
+        android:fontFamily="sans-serif-black"
         android:text="見どころ"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/koseButton" />
@@ -112,7 +140,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="10dp"
+        android:fontFamily="serif"
         android:text="10月9日午前9時ごろから恵美酒宮名物台場練り"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ebisuMidokoro1Button" />
 
@@ -122,7 +152,9 @@
         android:layout_height="30dp"
         android:layout_marginStart="34dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="serif"
         android:text="見どころ1：場所を確認"
+        android:textColor="#000000"
         android:textSize="8sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
@@ -133,7 +165,9 @@
         android:layout_height="30dp"
         android:layout_marginStart="34dp"
         android:layout_marginTop="15dp"
+        android:fontFamily="serif"
         android:text="見どころ2"
+        android:textColor="#000000"
         android:textSize="8sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
@@ -144,7 +178,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="10dp"
+        android:fontFamily="serif"
         android:text="10月9日午後2時ごろから恵美酒宮名物台場練り"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ebisuMidokoro2Button" />
 
@@ -154,7 +190,9 @@
         android:layout_height="30dp"
         android:layout_marginStart="34dp"
         android:layout_marginTop="15dp"
+        android:fontFamily="serif"
         android:text="見どころ3"
+        android:textColor="#000000"
         android:textSize="8sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
@@ -166,7 +204,9 @@
         android:layout_marginStart="34dp"
         android:layout_marginTop="10dp"
         android:background="#FFFFFF"
+        android:fontFamily="serif"
         android:text="10月9日午後7時ごろ4町差し別れ"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ebisuMidokoro3Button" />
 
@@ -176,7 +216,9 @@
         android:layout_height="30dp"
         android:layout_marginStart="34dp"
         android:layout_marginTop="15dp"
+        android:fontFamily="serif"
         android:text="見どころ4"
+        android:textColor="#000000"
         android:textSize="8sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
@@ -187,7 +229,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="10dp"
+        android:fontFamily="serif"
         android:text="10月9日午後9時ごろから向島橋の上で練り"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ebisuMidokoro4Button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
