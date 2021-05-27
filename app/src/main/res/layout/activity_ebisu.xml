@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#DFC795"
     tools:context=".Ebisu">
 
     <TextView
@@ -23,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="30dp"
         android:background="#FF6D00"
         android:fontFamily="serif"
         android:text="栄町"
@@ -36,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="30dp"
         android:background="#FD6868"
         android:fontFamily="serif"
         android:text="東堀"
@@ -49,7 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="30dp"
         android:background="#D50000"
         android:fontFamily="serif"
         android:text="都倉"
@@ -149,26 +150,26 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/ebisuMidokoro1Button"
         android:layout_width="wrap_content"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="20dp"
         android:fontFamily="serif"
         android:text="見どころ1：場所を確認"
         android:textColor="#000000"
-        android:textSize="8sp"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/ebisuMidokoro2Button"
-        android:layout_width="77dp"
-        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="15dp"
         android:fontFamily="serif"
         android:text="見どころ2"
         android:textColor="#000000"
-        android:textSize="8sp"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -186,14 +187,14 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/ebisuMidokoro3Button"
-        android:layout_width="77dp"
-        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="15dp"
         android:fontFamily="serif"
         android:text="見どころ3"
         android:textColor="#000000"
-        android:textSize="8sp"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
@@ -203,7 +204,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="10dp"
-        android:background="#FFFFFF"
         android:fontFamily="serif"
         android:text="10月9日午後7時ごろ4町差し別れ"
         android:textColor="#000000"
@@ -212,14 +212,14 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/ebisuMidokoro4Button"
-        android:layout_width="77dp"
-        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="15dp"
         android:fontFamily="serif"
         android:text="見どころ4"
         android:textColor="#000000"
-        android:textSize="8sp"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 

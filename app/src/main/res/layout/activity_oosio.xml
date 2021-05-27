@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F2FFCC"
     tools:context=".Oosio">
 
     <androidx.appcompat.widget.AppCompatButton
@@ -11,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="20dp"
         android:background="#0091EA"
         android:fontFamily="serif"
         android:text="東之丁"
@@ -24,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="20dp"
         android:background="#FD0303"
         android:fontFamily="serif"
         android:text="宮本丁"
@@ -37,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="20dp"
         android:background="#BB8BFF"
         android:fontFamily="serif"
         android:text="中之丁"
@@ -118,7 +119,7 @@
         android:fontFamily="serif"
         android:text="見どころ1：場所を確認"
         android:textColor="#000000"
-        android:textSize="8sp"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView21" />
 
@@ -131,7 +132,7 @@
         android:fontFamily="serif"
         android:text="見どころ2"
         android:textColor="#000000"
-        android:textSize="8sp"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
@@ -144,7 +145,7 @@
         android:fontFamily="serif"
         android:text="見どころ3"
         android:textColor="#000000"
-        android:textSize="8sp"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
@@ -157,7 +158,7 @@
         android:fontFamily="serif"
         android:text="見どころ4"
         android:textColor="#000000"
-        android:textSize="8sp"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView26" />
 

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EFE29F"
     tools:context=".Hamanomiya">
 
     <TextView
@@ -149,36 +150,36 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/hamanomiyaMidokoro1Button"
         android:layout_width="wrap_content"
-        android:layout_height="34dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="15dp"
         android:text="見どころ1：場所を確認"
         android:textColor="#000000"
-        android:textSize="12sp"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/hamanomiyaMidokoro2Button"
         android:layout_width="wrap_content"
-        android:layout_height="34dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="30dp"
         android:text="見どころ2"
         android:textColor="#000000"
-        android:textSize="12sp"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/hamanomiyaMidokoro3Button"
         android:layout_width="wrap_content"
-        android:layout_height="34dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="30dp"
         android:text="見どころ3"
         android:textColor="#000000"
-        android:textSize="12sp"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 

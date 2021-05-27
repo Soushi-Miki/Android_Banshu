@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#B3FFD3"
     tools:context=".nameCheck">
 
     <androidx.appcompat.widget.AppCompatButton
@@ -12,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="70dp"
-        android:background="#FFAB00"
+        android:background="#F3B231"
         android:fontFamily="serif"
         android:text="恵美酒宮天満神社"
         android:textColor="#000000"
@@ -97,5 +98,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="182dp"
+        android:layout_height="101dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/usuki3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
