@@ -13,11 +13,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="70dp"
+        android:layout_marginEnd="47dp"
         android:background="#F3B231"
         android:fontFamily="serif"
         android:text="恵美酒宮天満神社"
         android:textColor="#000000"
         android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -27,10 +29,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="40dp"
+        android:layout_marginEnd="127dp"
         android:background="#FFD600"
         android:fontFamily="serif"
         android:text="浜の宮天満宮"
         android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ebisuButton" />
 
@@ -40,10 +44,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="40dp"
+        android:layout_marginEnd="127dp"
         android:background="#DD2C00"
         android:fontFamily="serif"
         android:text="松原八幡神社"
         android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hamanomiyaButton" />
 
@@ -53,10 +59,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="44dp"
+        android:layout_marginEnd="167dp"
         android:background="#64DD17"
         android:fontFamily="serif"
         android:text="大塩天満宮"
         android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/matubaraButton" />
 
@@ -66,10 +74,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="40dp"
+        android:layout_marginEnd="207dp"
         android:background="#FF00E5"
         android:fontFamily="serif"
         android:text="荒川神社"
         android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/oosioButton" />
 
@@ -79,10 +89,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="40dp"
+        android:layout_marginEnd="127dp"
         android:background="#00B8D4"
         android:fontFamily="serif"
         android:text="魚吹八幡神社"
         android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/arakawaButton" />
 
@@ -98,15 +110,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="182dp"
-        android:layout_height="101dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/usuki3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

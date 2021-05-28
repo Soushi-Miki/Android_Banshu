@@ -4,52 +4,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#C6EEF4"
     tools:context=".Schedule">
+
+
+
     <TextView
         android:id="@+id/ebisumiyaCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="318dp"
+        android:layout_marginEnd="40dp"
         android:fontFamily="serif"
         android:text="恵美酒"
         android:textColor="#D50000"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/hamanomiyaCalender"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
 
     <TextView
         android:id="@+id/hamanomiyaCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="318dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="1dp"
         android:fontFamily="serif"
         android:text="浜の宮"
         android:textColor="#FF6D00"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
 
     <TextView
         android:id="@+id/c31TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="27dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="660dp"
+        android:layout_marginBottom="31dp"
         android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
         android:text="31"
         android:textColor="#000000"
         android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="575dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="595dp"
+        android:layout_marginEnd="30dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,6 +79,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="24"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -74,6 +89,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="25"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -83,6 +99,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="26"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -92,6 +109,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="27"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -101,6 +119,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="28"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -110,6 +129,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="29"
                 android:textColor="@color/black"
                 android:textSize="30sp" />
@@ -119,6 +139,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="30"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -130,10 +151,11 @@
         android:id="@+id/linearLayout5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="488dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="508dp"
+        android:layout_marginEnd="30dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/hirohataCalender"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -148,6 +170,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="17"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -157,6 +180,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="18"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -166,6 +190,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="19"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -175,6 +200,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="20"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -184,6 +210,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="21"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -193,6 +220,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="22"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -202,6 +230,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="23"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -213,10 +242,11 @@
         android:id="@+id/linearLayout4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="210dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="30dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/shohatimanCalender"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -231,6 +261,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="10"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -240,6 +271,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="11"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -249,6 +281,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="12"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -258,6 +291,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="13"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -267,6 +301,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="14"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -276,6 +311,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="15"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -285,6 +321,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="16"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -295,10 +332,11 @@
         android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="125dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="30dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/ebisumiyaCalender"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -313,6 +351,7 @@
                 android:layout_width="34dp"
                 android:layout_height="38dp"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text=" 3  "
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -322,6 +361,7 @@
                 android:layout_width="34dp"
                 android:layout_height="38dp"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text=" 4  "
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -331,6 +371,7 @@
                 android:layout_width="34dp"
                 android:layout_height="38dp"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text=" 5  "
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -340,6 +381,7 @@
                 android:layout_width="34dp"
                 android:layout_height="38dp"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text=" 6  "
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -349,6 +391,7 @@
                 android:layout_width="34dp"
                 android:layout_height="38dp"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text=" 7  "
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -358,6 +401,7 @@
                 android:layout_width="34dp"
                 android:layout_height="38dp"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text=" 8  "
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -367,6 +411,7 @@
                 android:layout_width="34dp"
                 android:layout_height="38dp"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text=" 9  "
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -377,10 +422,11 @@
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="30dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -393,8 +439,9 @@
             <TextView
                 android:id="@+id/black26TextView"
                 android:layout_width="wrap_content"
-                android:layout_height="70dp"
+                android:layout_height="60dp"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="26"
                 android:textColor="#848585"
                 android:textSize="30sp" />
@@ -402,8 +449,9 @@
             <TextView
                 android:id="@+id/black27TextView"
                 android:layout_width="wrap_content"
-                android:layout_height="70dp"
+                android:layout_height="60dp"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="27"
                 android:textColor="#848585"
                 android:textSize="30sp" />
@@ -411,8 +459,9 @@
             <TextView
                 android:id="@+id/black28TextView"
                 android:layout_width="wrap_content"
-                android:layout_height="70dp"
+                android:layout_height="60dp"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="28"
                 android:textColor="#848585"
                 android:textSize="30sp" />
@@ -420,8 +469,9 @@
             <TextView
                 android:id="@+id/black29TextView"
                 android:layout_width="wrap_content"
-                android:layout_height="70dp"
+                android:layout_height="60dp"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="29"
                 android:textColor="#848585"
                 android:textSize="30sp" />
@@ -429,8 +479,9 @@
             <TextView
                 android:id="@+id/black30TextView"
                 android:layout_width="wrap_content"
-                android:layout_height="70dp"
+                android:layout_height="60dp"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="30"
                 android:textColor="#848585"
                 android:textSize="30sp" />
@@ -438,8 +489,9 @@
             <TextView
                 android:id="@+id/c1TextView"
                 android:layout_width="34dp"
-                android:layout_height="70dp"
+                android:layout_height="60dp"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text=" 1  "
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -447,8 +499,9 @@
             <TextView
                 android:id="@+id/c2TextView"
                 android:layout_width="34dp"
-                android:layout_height="70dp"
+                android:layout_height="60dp"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text=" 2  "
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -459,10 +512,11 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -477,6 +531,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="日"
                 android:textColor="#FB2424"
                 android:textSize="30sp" />
@@ -486,6 +541,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="月"
                 android:textSize="30sp" />
 
@@ -494,6 +550,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="火"
                 android:textSize="30sp" />
 
@@ -502,6 +559,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="水"
                 android:textSize="30sp" />
 
@@ -510,6 +568,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="木"
                 android:textSize="30sp" />
 
@@ -518,6 +577,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="金"
                 android:textSize="30sp" />
 
@@ -526,6 +586,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="土"
                 android:textColor="#0091EA"
                 android:textSize="30sp" />
@@ -536,10 +597,14 @@
         android:id="@+id/shohatimanCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="143dp"
         android:fontFamily="serif"
         android:text="正八幡"
+        android:textColor="#FF0000"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/kabutohatimanCalender"
+        app:layout_constraintEnd_toStartOf="@+id/minatoCalender"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
 
@@ -547,11 +612,14 @@
         android:id="@+id/kabutohatimanCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="181dp"
         android:fontFamily="serif"
         android:text="甲八幡"
+        android:textColor="#D57979"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tudaCalender"
+        app:layout_constraintEnd_toStartOf="@+id/oosioCalender"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/shohatimanCalender" />
 
@@ -559,10 +627,14 @@
         android:id="@+id/tudaCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="345dp"
         android:fontFamily="serif"
         android:text="津田"
+        android:textColor="#988626"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/nakasimaCalender"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/kabutohatimanCalender" />
 
@@ -570,10 +642,14 @@
         android:id="@+id/nakasimaCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="345dp"
         android:fontFamily="serif"
         android:text="中島"
+        android:textColor="#00BFA5"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/takaokaCalender"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tudaCalender" />
 
@@ -581,10 +657,14 @@
         android:id="@+id/takaokaCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="345dp"
         android:fontFamily="serif"
         android:text="高岳"
+        android:textColor="#304FFE"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/kamadaCalender"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nakasimaCalender" />
 
@@ -592,10 +672,14 @@
         android:id="@+id/kamadaCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="345dp"
         android:fontFamily="serif"
         android:text="蒲田"
+        android:textColor="#39341A"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/inaokaCalender"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/takaokaCalender" />
 
@@ -603,10 +687,14 @@
         android:id="@+id/inaokaCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="345dp"
         android:fontFamily="serif"
         android:text="稲岡"
+        android:textColor="#00C853"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/ikuyaCalender"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/kamadaCalender" />
 
@@ -614,10 +702,15 @@
         android:id="@+id/ikuyaCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="345dp"
+        android:layout_marginBottom="1dp"
         android:fontFamily="serif"
         android:text="生矢"
+        android:textColor="#CE00DD"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/saiCalender"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/inaokaCalender" />
 
@@ -625,10 +718,12 @@
         android:id="@+id/saiCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="35dp"
         android:fontFamily="serif"
         android:text="才"
+        android:textColor="#FF1717"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/sugawaraCalender"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ikuyaCalender" />
 
@@ -636,10 +731,14 @@
         android:id="@+id/sugawaraCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="345dp"
         android:fontFamily="serif"
         android:text="菅原"
+        android:textColor="#FF6D00"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/saiCalender" />
 
@@ -647,9 +746,10 @@
         android:id="@+id/minatoCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="20dp"
         android:fontFamily="serif"
         android:text="湊"
+        android:textColor="#FF0606"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/matubaraCalender"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
@@ -658,9 +758,10 @@
         android:id="@+id/matubaraCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="101dp"
+        android:layout_marginEnd="111dp"
         android:fontFamily="serif"
         android:text="松原"
+        android:textColor="#FA0000"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
@@ -669,9 +770,10 @@
         android:id="@+id/oosioCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="101dp"
+        android:layout_marginEnd="111dp"
         android:fontFamily="serif"
         android:text="大塩"
+        android:textColor="#00C853"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/matubaraCalender" />
@@ -680,10 +782,12 @@
         android:id="@+id/hirohataCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="30dp"
         android:fontFamily="serif"
         android:text="廣畑"
+        android:textColor="#FFAB00"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/arakawaCalender"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
 
@@ -691,10 +795,12 @@
         android:id="@+id/arakawaCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="30dp"
         android:fontFamily="serif"
         android:text="荒川"
+        android:textColor="#AA00FF"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hirohataCalender" />
 
@@ -703,9 +809,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="22dp"
         android:fontFamily="serif"
         android:text="英賀"
+        android:textColor="#00BFA5"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toStartOf="@+id/usukiCalender"
         app:layout_constraintStart_toEndOf="@+id/hirohataCalender"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
 
@@ -713,12 +824,28 @@
         android:id="@+id/usukiCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="139dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="22dp"
         android:fontFamily="serif"
         android:text="魚吹"
+        android:textColor="#304FFE"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+
+    <TextView
+        android:id="@+id/yearText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-black"
+        android:text="2021年10月"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

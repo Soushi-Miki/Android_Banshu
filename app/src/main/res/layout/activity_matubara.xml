@@ -13,10 +13,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="60dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="20dp"
         android:background="#FFB5D6"
         android:fontFamily="serif"
         android:text="東山"
         android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/yakaButton"
+        app:layout_constraintEnd_toStartOf="@+id/kibaButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -39,10 +43,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="60dp"
+        android:layout_marginEnd="45dp"
         android:background="#FF6D00"
         android:fontFamily="serif"
         android:text="松原"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/kibaButton"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -55,7 +61,7 @@
         android:background="#FF3434"
         android:fontFamily="serif"
         android:text="八家"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/higasiyamaButton" />
 
@@ -68,7 +74,7 @@
         android:background="#FB2C2C"
         android:fontFamily="serif"
         android:text="妻鹿"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         app:layout_constraintStart_toEndOf="@+id/yakaButton"
         app:layout_constraintTop_toBottomOf="@+id/kibaButton" />
 
@@ -78,10 +84,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="45dp"
         android:background="#FFD600"
         android:fontFamily="serif"
         android:text="宇佐崎"
         android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/megaButton"
         app:layout_constraintTop_toBottomOf="@+id/matubaraButton1" />
 
@@ -103,9 +111,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
+        android:layout_marginBottom="61dp"
         android:fontFamily="sans-serif-black"
         android:text="屋台蔵の場所を確認する"
         android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/kibaButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -116,59 +126,89 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="113dp"
         android:fontFamily="sans-serif-black"
-        android:text="見どころ"
+        android:text="見所"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/megaButton" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/matubaraMidokoro1Button"
-        android:layout_width="wrap_content"
-        android:layout_height="40sp"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="40dp"
-        android:fontFamily="serif"
-        android:text="見どころ1：場所を確認"
-        android:textColor="#000000"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView18" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/matubaraMidokoro2Button"
-        android:layout_width="wrap_content"
-        android:layout_height="40sp"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="40dp"
-        android:fontFamily="serif"
-        android:text="見どころ2"
-        android:textColor="#000000"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView19" />
-
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="wrap_content"
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="20dp"
-        android:fontFamily="serif"
-        android:text="10月14日・15日とも桟敷前で練り合わせ"
-        android:textColor="#000000"
+        android:layout_marginTop="382dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/matubaraMidokoro1Button" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="20dp"
-        android:fontFamily="serif"
-        android:text="10月15日御旅山での練り合わせ"
-        android:textColor="#000000"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/matubaraMidokoro2Button" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/matubaraMidokoro1Button"
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="serif"
+                android:text="見所1：場所を確認"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="368dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="118dp"
+                android:fontFamily="serif"
+                android:text="10月14日・15日とも桟敷前で練り合わせ"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/matubaraMidokoro1Button" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/matubaraMidokoro2Button"
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="289dp"
+                android:layout_marginBottom="21dp"
+                android:fontFamily="serif"
+                android:text="見所2"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView20"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="347dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="34dp"
+                android:layout_marginEnd="176dp"
+                android:layout_marginBottom="120dp"
+                android:fontFamily="serif"
+                android:text="10月15日御旅山での練り合わせ"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

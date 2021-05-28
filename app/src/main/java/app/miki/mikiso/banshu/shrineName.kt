@@ -1,8 +1,10 @@
 package app.miki.mikiso.banshu
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_shrine_name.*
 
 class shrineName : AppCompatActivity() {
@@ -10,16 +12,16 @@ class shrineName : AppCompatActivity() {
     val shrineSata: List<ShrineSata> = listOf(
              ShrineSata("恵美酒宮天満神社","10月8日・9日"),
         ShrineSata("浜の宮天満神社","10月8日・9日"),
-        ShrineSata("正八幡神社","スポーツの日前日・前々日"),
-        ShrineSata("甲八幡神社","スポーツの日前日・前々日"),
-        ShrineSata("津田天満神社","スポーツの日前日・前々日"),
-        ShrineSata("中島天満宮","スポーツの日前日・前々日"),
-        ShrineSata("高岳神社","スポーツの日前日・前々日"),
-        ShrineSata("蒲田神社","スポーツの日前日・前々日"),
-        ShrineSata("稲岡神社","スポーツの日前日・前々日"),
+        ShrineSata("正八幡神社","スポーツの日の前日・前々日"),
+        ShrineSata("甲八幡神社","スポーツの日の前日・前々日"),
+        ShrineSata("津田天満神社","スポーツの日の前日・前々日"),
+        ShrineSata("中島天満宮","スポーツの日の前日・前々日"),
+        ShrineSata("高岳神社","スポーツの日の前日・前々日"),
+        ShrineSata("蒲田神社","スポーツの日の前日・前々日"),
+        ShrineSata("稲岡神社","スポーツの日の前日・前々日"),
         ShrineSata("生矢神社","スポーツの日の前日・前々日"),
         ShrineSata("才天満神社","スポーツの日の前日・前々日"),
-        ShrineSata("菅原神社","スポーツの日前日・前々日"),
+        ShrineSata("菅原神社","スポーツの日の前日・前々日"),
         ShrineSata("湊神社","10月13日・14日"),
         ShrineSata("松原八幡神社","10月14日・15日"),
         ShrineSata("大塩天満宮","10月14日・15日"),
@@ -39,6 +41,11 @@ class shrineName : AppCompatActivity() {
         recyclerView.adapter = adapter
 
         adapter.addAll(shrineSata)
+
+        goCalenderButton.setOnClickListener {
+            val name = Intent(this,Schedule::class.java)
+            startActivity(name)
+        }
     }
 
 

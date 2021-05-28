@@ -7,11 +7,12 @@
     android:background="#DFC795"
     tools:context=".Ebisu">
 
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="44sp"
         android:fontFamily="sans-serif-black"
         android:text="屋台蔵の場所を確認する"
         android:textColor="#000000"
@@ -23,12 +24,14 @@
         android:id="@+id/sakaematiButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="34sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="20dp"
         android:background="#FF6D00"
         android:fontFamily="serif"
         android:text="栄町"
         android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/gokouButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -36,12 +39,14 @@
         android:id="@+id/higasihoriButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="34sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginEnd="34dp"
         android:background="#FD6868"
         android:fontFamily="serif"
         android:text="東堀"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/tokuraButton"
         app:layout_constraintStart_toEndOf="@+id/sakaematiButton"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -49,21 +54,21 @@
         android:id="@+id/tokuraButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="30sp"
+        android:layout_marginEnd="45dp"
         android:background="#D50000"
         android:fontFamily="serif"
         android:text="都倉"
-        android:textColor="#000000"
-        app:layout_constraintStart_toEndOf="@+id/higasihoriButton"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/gokouButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="34sp"
+        android:layout_marginTop="20sp"
         android:background="#FFD600"
         android:fontFamily="serif"
         android:text="御幸"
@@ -75,12 +80,14 @@
         android:id="@+id/tamatiButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="34sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="34dp"
         android:background="#FF0073"
         android:fontFamily="serif"
         android:text="玉地"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/simizuButton"
         app:layout_constraintStart_toEndOf="@+id/gokouButton"
         app:layout_constraintTop_toBottomOf="@+id/higasihoriButton" />
 
@@ -88,21 +95,21 @@
         android:id="@+id/simizuButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="45sp"
         android:background="#64DD17"
         android:fontFamily="serif"
         android:text="清水"
         android:textColor="#000000"
-        app:layout_constraintStart_toEndOf="@+id/tamatiButton"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tokuraButton" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/kitahosoeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="34sp"
+        android:layout_marginTop="20sp"
         android:background="#00B8D4"
         android:fontFamily="serif"
         android:text="北細江"
@@ -114,12 +121,14 @@
         android:id="@+id/koseButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="165sp"
         android:background="#C195FF"
         android:fontFamily="serif"
         android:text="小瀬"
         android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/kitahosoeButton"
         app:layout_constraintTop_toBottomOf="@+id/tamatiButton" />
 
@@ -127,111 +136,143 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="33dp"
+        android:layout_marginTop="28dp"
         android:fontFamily="sans-serif-black"
-        android:text="見どころ"
+        android:text="見所"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/koseButton" />
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="serif"
-        android:text="10月9日午前9時ごろから恵美酒宮名物台場練り"
-        android:textColor="#000000"
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="350dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ebisuMidokoro1Button" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/ebisuMidokoro1Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="20dp"
-        android:fontFamily="serif"
-        android:text="見どころ1：場所を確認"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/ebisuMidokoro2Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="15dp"
-        android:fontFamily="serif"
-        android:text="見どころ2"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="serif"
-        android:text="10月9日午後2時ごろから恵美酒宮名物台場練り"
-        android:textColor="#000000"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ebisuMidokoro2Button" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/ebisuMidokoro3Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="15dp"
-        android:fontFamily="serif"
-        android:text="見どころ3"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ebisuMidokoro1Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="34sp"
+                android:layout_marginTop="20sp"
+                android:fontFamily="serif"
+                android:text="見所1：場所を確認"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="serif"
-        android:text="10月9日午後7時ごろ4町差し別れ"
-        android:textColor="#000000"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ebisuMidokoro3Button" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="34dp"
+                android:fontFamily="serif"
+                android:text="10月9日午前9時ごろから恵美酒宮名物台場練り"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ebisuMidokoro1Button" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/ebisuMidokoro4Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="15dp"
-        android:fontFamily="serif"
-        android:text="見どころ4"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ebisuMidokoro2Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="34sp"
+                android:layout_marginTop="15sp"
+                android:fontFamily="serif"
+                android:text="見所2"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="serif"
-        android:text="10月9日午後9時ごろから向島橋の上で練り"
-        android:textColor="#000000"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ebisuMidokoro4Button" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="34sp"
+                android:layout_marginTop="10sp"
+                android:fontFamily="serif"
+                android:text="10月9日午後2時ごろから恵美酒宮名物台場練り"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ebisuMidokoro2Button" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ebisuMidokoro3Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="34sp"
+                android:layout_marginTop="15sp"
+                android:fontFamily="serif"
+                android:text="見所3"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="34sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginEnd="196sp"
+                android:fontFamily="serif"
+                android:text="10月9日午後7時ごろ4町差し別れ"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ebisuMidokoro3Button" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ebisuMidokoro4Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="34sp"
+                android:layout_marginTop="11dp"
+                android:layout_marginEnd="280dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="serif"
+                android:text="見所4"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView13"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="34dp"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="serif"
+                android:text="10月9日午後9時ごろから向島橋の上で練り"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
