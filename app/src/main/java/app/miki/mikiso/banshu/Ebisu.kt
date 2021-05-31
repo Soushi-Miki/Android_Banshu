@@ -48,20 +48,24 @@ class Ebisu : AppCompatActivity() {
         }
         simizuButton.setOnClickListener {
             val gmmIntentUri =
-                    Uri.parse("geo:0,0?q=姫路市飾磨区恵美酒99-4 ")
+                    Uri.parse("geo:0,0?q=姫路市飾磨区恵美酒99-4 清水町(旧上英加町)屋台蔵 ")
             val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
             mapIntent.setPackage("com.google.android.apps.maps")
             startActivity(mapIntent)
         }
         kitahosoeButton.setOnClickListener {
             val gmmIntentUri =
-                    Uri.parse("geo:0,0?q=姫路市飾磨区北細江2583 ")
+                    Uri.parse("geo:0,0?q=姫路市飾磨区北細江2583　北細江屋台蔵 ")
             val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
             mapIntent.setPackage("com.google.android.apps.maps")
             startActivity(mapIntent)
         }
         koseButton.setOnClickListener {
-            //小瀬の屋台蔵を探す
+            val gmmIntentUri =
+                    Uri.parse("geo:0,0?q=姫路市飾磨区341-3 小瀬町屋台蔵 ")
+            val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+            mapIntent.setPackage("com.google.android.apps.maps")
+            startActivity(mapIntent)
         }
         ebisuMidokoro1Button.setOnClickListener {
             val gmmIntentUri =

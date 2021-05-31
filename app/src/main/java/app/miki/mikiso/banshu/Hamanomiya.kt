@@ -19,7 +19,11 @@ class Hamanomiya : AppCompatActivity() {
             startActivity(mapIntent)
         }
         miyaButton.setOnClickListener {
-            //宮屋台蔵調べる
+            val gmmIntentUri =
+                    Uri.parse("geo:0,0?q=姫路市飾磨区155-2 宮町屋台蔵 ")
+            val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+            mapIntent.setPackage("com.google.android.apps.maps")
+            startActivity(mapIntent)
         }
         tensinButton.setOnClickListener {
             val gmmIntentUri =
@@ -36,32 +40,36 @@ class Hamanomiya : AppCompatActivity() {
             startActivity(mapIntent)
         }
         kawatigosoeButton.setOnClickListener {
-            //川内細江屋台蔵調べる
+            val gmmIntentUri =
+                    Uri.parse("geo:0,0?q=姫路市飾磨区細江660 川内細江屋台蔵 ")
+            val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+            mapIntent.setPackage("com.google.android.apps.maps")
+            startActivity(mapIntent)
         }
         nisihosoeButton.setOnClickListener {
             val gmmIntentUri =
-                    Uri.parse("geo:0,0?q=姫路市飾磨区細江709 ")
+                    Uri.parse("geo:0,0?q=姫路市飾磨区細江709　西細江屋台蔵 ")
             val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
             mapIntent.setPackage("com.google.android.apps.maps")
             startActivity(mapIntent)
         }
         nakahosoeButton.setOnClickListener {
             val gmmIntentUri =
-                    Uri.parse("geo:0,0?q=姫路市飾磨区細江841-1")
+                    Uri.parse("geo:0,0?q=姫路市飾磨区細江841-1 中細江屋台蔵")
             val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
             mapIntent.setPackage("com.google.android.apps.maps")
             startActivity(mapIntent)
         }
         minatoButton.setOnClickListener {
             val gmmIntentUri =
-                    Uri.parse("geo:0,0?q=姫路市飾磨区須加300-8 ")
+                    Uri.parse("geo:0,0?q=姫路市飾磨区須加300-8　港屋台蔵 ")
             val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
             mapIntent.setPackage("com.google.android.apps.maps")
             startActivity(mapIntent)
         }
         minamihosoeButton.setOnClickListener {
             val gmmIntentUri =
-                    Uri.parse("geo:0,0?q=姫路市飾磨区細江963")
+                    Uri.parse("geo:0,0?q=姫路市飾磨区細江963　南細江屋台蔵")
             val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
             mapIntent.setPackage("com.google.android.apps.maps")
             startActivity(mapIntent)

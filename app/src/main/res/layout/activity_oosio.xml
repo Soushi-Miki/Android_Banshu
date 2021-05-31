@@ -44,7 +44,7 @@
         android:background="#BB8BFF"
         android:fontFamily="serif"
         android:text="中之丁"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/nisihamaButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/miyamototyouButton"
@@ -100,6 +100,7 @@
         android:fontFamily="sans-serif-black"
         android:text="屋台蔵の場所を確認する"
         android:textColor="#000000"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/miyamototyouButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -109,10 +110,11 @@
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="40dp"
         android:fontFamily="sans-serif-black"
         android:text="見所"
         android:textColor="#000000"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
@@ -124,6 +126,7 @@
         android:layout_height="match_parent"
         android:layout_marginTop="300dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -149,7 +152,7 @@
 
             <TextView
                 android:id="@+id/textView22"
-                android:layout_width="320dp"
+                android:layout_width="369dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="34dp"
                 android:layout_marginTop="10dp"
@@ -157,6 +160,7 @@
                 android:fontFamily="serif"
                 android:text="10月14日午前11時ごろ宮入り・練り合わせ"
                 android:textColor="#000000"
+                android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/oosioMidokoro1Button" />
@@ -171,6 +175,7 @@
                 android:fontFamily="serif"
                 android:text="10月14日午後6時ごろ獅子舞"
                 android:textColor="#000000"
+                android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView22" />
@@ -200,6 +205,7 @@
                 android:fontFamily="serif"
                 android:text="10月14日午後0時30分練り合わせ"
                 android:textColor="#000000"
+                android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/oosioMidokoro2Button" />
@@ -229,6 +235,7 @@
                 android:fontFamily="serif"
                 android:text="10月15日午前8時ごろ御面掛神事・午前10時ごろ宮入り"
                 android:textColor="#000000"
+                android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/oosioMidokoro3Button" />
@@ -266,7 +273,7 @@
 
             <TextView
                 android:id="@+id/textView27"
-                android:layout_width="293dp"
+                android:layout_width="352dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="34dp"
                 android:layout_marginEnd="140dp"
@@ -274,6 +281,7 @@
                 android:fontFamily="serif"
                 android:text="10月15日午後8時ごろ屋台練り合わせ"
                 android:textColor="#000000"
+                android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />

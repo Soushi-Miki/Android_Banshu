@@ -20,7 +20,7 @@ class Usuki : AppCompatActivity() {
         }
         hiramatuButton.setOnClickListener {
             val gmmIntentUri =
-                    Uri.parse("geo:0,0?q=姫路市大津区平松131")
+                    Uri.parse("geo:0,0?q=姫路市大津区平松131　平松屋台蔵")
             val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
             mapIntent.setPackage("com.google.android.apps.maps")
             startActivity(mapIntent)
@@ -83,7 +83,7 @@ class Usuki : AppCompatActivity() {
         }
         sakadeButton.setOnClickListener {
             val gmmIntentUri =
-                    Uri.parse("geo:0,0?q=姫路市網干区180")
+                    Uri.parse("geo:0,0?q=姫路市網干区180 坂出屋台蔵")
             val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
             mapIntent.setPackage("com.google.android.apps.maps")
             startActivity(mapIntent)
@@ -137,13 +137,38 @@ class Usuki : AppCompatActivity() {
             mapIntent.setPackage("com.google.android.apps.maps")
             startActivity(mapIntent)
         }
-        kaitiButton
-        okihamaButton
-        sinzaikeButton
-        yokohamaButton
+        kaitiButton.setOnClickListener {
+            val gmmIntentUri =
+                    Uri.parse("geo:0,0?q=姫路市網干区垣内本町518 垣内檀尻蔵")
+            val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+            mapIntent.setPackage("com.google.android.apps.maps")
+            startActivity(mapIntent)
+
+        }
+        okihamaButton.setOnClickListener {
+           val gmmIntentUri =
+                   Uri.parse("geo:0,0?q=姫路市網干区興浜1-2 興浜檀尻蔵")
+            val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+            mapIntent.setPackage("com.google.android.apps.maps")
+            startActivity(mapIntent)
+       }
+        sinzaikeButton.setOnClickListener {
+            val gmmIntentUri =
+                    Uri.parse("geo:0,0?q=姫路市網干区363 新在家檀尻蔵")
+            val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+            mapIntent.setPackage("com.google.android.apps.maps")
+            startActivity(mapIntent)
+        }
+        yokohamaButton.setOnClickListener {
+            val gmmIntentUri =
+                    Uri.parse("geo:0,0?q=姫路市網干区余子浜30-7 余子浜檀尻蔵")
+            val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+            mapIntent.setPackage("com.google.android.apps.maps")
+            startActivity(mapIntent)
+        }
         asahidaniButton.setOnClickListener {
             val gmmIntentUri =
-                    Uri.parse("geo:0,0?q=姫路市勝原区405")
+                    Uri.parse("geo:0,0?q=姫路市勝原区405　朝日谷獅子檀尻")
             val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
             mapIntent.setPackage("com.google.android.apps.maps")
             startActivity(mapIntent)
