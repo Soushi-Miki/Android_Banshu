@@ -20,7 +20,9 @@ class MainActivity : AppCompatActivity() {
             val name = Intent(this,nameCheck::class.java)
             startActivity(name)
         }
-
-
+        scheduleMaturiButton.setOnClickListener {
+            val schedule = Intent(this,scheduleMaturiList::class.java)
+            startActivity(schedule)
+        }
     }
 }

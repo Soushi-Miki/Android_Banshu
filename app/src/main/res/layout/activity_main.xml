@@ -11,13 +11,11 @@
         android:id="@+id/calenderButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="488sp"
-        android:layout_marginBottom="51dp"
+        android:layout_marginTop="440dp"
         android:background="#FF9494"
         android:fontFamily="serif"
         android:text="日程を確認する"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/shrineNameButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,15 +24,15 @@
         android:id="@+id/shrineNameButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="96sp"
+        android:layout_marginTop="40dp"
         android:background="#8EF0FF"
         android:fontFamily="serif"
         android:text="神社の名前で確認する"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calenderButton" />
 
     <TextView
         android:id="@+id/himeTextView"
@@ -145,5 +143,17 @@
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toBottomOf="@+id/riTeXtView"
         app:srcCompat="@drawable/oosio1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/scheduleMaturiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="67dp"
+        android:text="行きたい祭りをメモ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shrineNameButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
