@@ -12,30 +12,29 @@ class nameCheck : AppCompatActivity() {
         setContentView(R.layout.activity_name_check)
 
         ebisuButton.setOnClickListener {
-            val Ebisu = Intent(this,Ebisu::class.java)
+            val Ebisu = Intent(this, Ebisu::class.java)
             startActivity(Ebisu)
         }
         hamanomiyaButton.setOnClickListener {
-            val Hamanomiya = Intent(this,Hamanomiya::class.java)
+            val Hamanomiya = Intent(this, Hamanomiya::class.java)
             startActivity(Hamanomiya)
         }
         matubaraButton.setOnClickListener {
-            val Matubara = Intent (this,Matubara::class.java)
+            val Matubara = Intent(this, Matubara::class.java)
             startActivity(Matubara)
         }
         oosioButton.setOnClickListener {
-            val Oosio = Intent (this,Oosio::class.java)
+            val Oosio = Intent(this, Oosio::class.java)
             startActivity(Oosio)
         }
         arakawaButton.setOnClickListener {
-            val Arakawa = Intent (this,Arakawa::class.java)
+            val Arakawa = Intent(this, Arakawa::class.java)
             startActivity(Arakawa)
         }
-        usukiButton.setOnClickListener {
-            val Usuki = Intent (this,Usuki::class.java)
-            startActivity(Usuki)
-        }
+       usukiButton.setOnClickListener {
+           val Usuki = Intent(this,Usuki::class.java)
+           startActivity(Usuki)
+       }
 
     }
-
 }

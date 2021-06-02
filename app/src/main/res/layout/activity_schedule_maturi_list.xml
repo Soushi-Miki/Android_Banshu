@@ -5,18 +5,20 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFF8D3"
     tools:context=".scheduleMaturiList">
 
     <EditText
         android:id="@+id/maturiScheduleList1"
         android:layout_width="261dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="65dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
+        android:fontFamily="serif"
         android:inputType="textPersonName"
         android:text="・日付・時間・神社"
         android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/myScheduleLTextView" />
 
@@ -28,6 +30,7 @@
         android:fontFamily="sans-serif-black"
         android:text="行きたい祭りリスト"
         android:textColor="#000000"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -36,52 +39,56 @@
         android:id="@+id/maturiScheduleList2"
         android:layout_width="261dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
+        android:fontFamily="serif"
         android:inputType="textPersonName"
         android:text="・日付・時間・神社"
         android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/maturiScheduleList1" />
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
 
     <EditText
         android:id="@+id/maturiScheduleList3"
         android:layout_width="261dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
+        android:fontFamily="serif"
         android:inputType="textPersonName"
         android:text="・日付・時間・神社"
         android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/maturiScheduleList2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
 
     <EditText
         android:id="@+id/maturiScheduleList4"
         android:layout_width="261dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
+        android:fontFamily="serif"
         android:inputType="textPersonName"
         android:text="・日付・時間・神社"
         android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/maturiScheduleList3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
 
     <EditText
         android:id="@+id/maturiScheduleList5"
         android:layout_width="261dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
+        android:fontFamily="serif"
         android:inputType="textPersonName"
         android:text="・日付・時間・神社"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/maturiScheduleList4" />
+        app:layout_constraintTop_toBottomOf="@+id/textView39" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/saveButon"
@@ -95,5 +102,53 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/maturiScheduleList5" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="↓"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maturiScheduleList1" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="↓"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maturiScheduleList2" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="↓"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maturiScheduleList3" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="↓"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maturiScheduleList4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
