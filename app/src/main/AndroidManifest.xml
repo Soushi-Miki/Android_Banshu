@@ -10,7 +10,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Banshu">
-        <activity android:name=".scheduleMaturiList"></activity>
+        <activity android:name=".UsukiAccess"></activity>
+        <activity android:name=".MatubaraAccess" />
+        <activity android:name=".ArakawaAccess" />
+        <activity android:name=".OosioAccess" />
+        <activity android:name=".HamanomiyaAccess" />
+        <activity android:name=".EbisuAccess" />
+        <activity android:name=".scheduleMaturiList" />
         <activity android:name=".Schedule" />
         <activity android:name=".Usuki" />
         <activity android:name=".Arakawa" />

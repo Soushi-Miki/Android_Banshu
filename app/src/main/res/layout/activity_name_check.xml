@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B3FFD3"
+    android:background="#FFD8A7"
     tools:context=".nameCheck">
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="sans-serif-black"
-        android:text="神社名"
+        android:text="神社名のボタンをTAP"
         android:textColor="#000000"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +41,7 @@
                 android:id="@+id/ebisuButton"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
-                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
                 android:layout_marginTop="10dp"
                 android:background="#F3B231"
                 android:fontFamily="serif"
@@ -51,12 +51,24 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ebisuAccessButton"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="8dp"
+                android:background="#FFD8A7"
+                android:fontFamily="serif"
+                android:text="最寄駅からのアクセスをチェックする:TAP"
+                android:textColor="#000000"
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/ebisunomiyaBunka"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="40dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="10dp"
                 android:text="姫路市指定の重要無形民俗文化財"
                 android:textColor="#531704"
                 tools:layout_editor_absoluteX="42dp"
@@ -79,7 +91,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="60dp"
                 android:background="#FFD600"
                 android:fontFamily="serif"
                 android:text="浜の宮天満宮"
@@ -88,12 +100,24 @@
                 app:layout_constraintStart_toStartOf="parent"
                 tools:layout_editor_absoluteY="189dp" />
 
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/hamanomiyaAccessButton"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="8dp"
+                android:background="#FFD8A7"
+                android:fontFamily="serif"
+                android:text="最寄駅からのアクセスをチェックする:TAP!"
+                android:textColor="#000000"
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/hamanomiyaBunka"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="40dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="10dp"
                 android:text="姫路市指定の重要無形民俗文化財"
                 android:textColor="#531704"
                 tools:layout_editor_absoluteX="41dp"
@@ -116,7 +140,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="60dp"
                 android:background="#DD2C00"
                 android:fontFamily="serif"
                 android:text="松原八幡神社"
@@ -125,12 +149,26 @@
                 app:layout_constraintStart_toStartOf="parent"
                 tools:layout_editor_absoluteY="275dp" />
 
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/matubaraAccessButton"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="8dp"
+                android:background="#FFD8A7"
+                android:fontFamily="serif"
+                android:text="最寄駅からのアクセスをチェックする:TAP!"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/matubaraButton" />
+
             <TextView
                 android:id="@+id/matubaraKenBunka"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="40dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="10dp"
                 android:text="兵庫県指定の重要無形民俗文化財"
                 android:textColor="#531704"
                 tools:layout_editor_absoluteX="41dp"
@@ -164,7 +202,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="60dp"
                 android:background="#64DD17"
                 android:fontFamily="serif"
                 android:text="大塩天満宮"
@@ -174,12 +212,26 @@
                 tools:layout_editor_absoluteY="403dp" />
 
 
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/oosioAccessButton"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="8dp"
+                android:background="#FFD8A7"
+                android:fontFamily="serif"
+                android:text="最寄駅からのアクセスをチェックする:TAP!"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/oosioButton" />
+
             <TextView
                 android:id="@+id/oosioKenbunka"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="40dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="10dp"
                 android:text="兵庫県指定の重要無形民俗文化財"
                 android:textColor="#531704"
                 tools:layout_editor_absoluteX="44dp"
@@ -213,7 +265,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="60dp"
                 android:background="#FF00E5"
                 android:fontFamily="serif"
                 android:text="荒川神社"
@@ -222,12 +274,24 @@
                 app:layout_constraintStart_toStartOf="parent"
                 tools:layout_editor_absoluteY="534dp" />
 
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/arakawaAccessButton"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="8dp"
+                android:background="#FFD8A7"
+                android:fontFamily="serif"
+                android:text="最寄駅からのアクセスをチェックする:TAP!"
+                android:textColor="#000000"
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/arakawaBunka"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="40dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="10dp"
                 android:text="姫路市指定の重要無形民俗文化財"
                 android:textColor="#531704"
                 tools:layout_editor_absoluteX="46dp"
@@ -250,7 +314,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="60dp"
                 android:background="#00B8D4"
                 android:fontFamily="serif"
                 android:text="魚吹八幡神社"
@@ -260,12 +324,26 @@
                 tools:layout_editor_absoluteY="634dp" />
 
 
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/usukiAccessButton"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="8dp"
+                android:background="#FFD8A7"
+                android:fontFamily="serif"
+                android:text="最寄駅からのアクセスをチェックする:TAP!"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/usukiButton" />
+
             <TextView
                 android:id="@+id/usukiKenbunka"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="40dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="10dp"
                 android:text="兵庫県指定の重要無形民俗文化財"
                 android:textColor="#531704"
                 tools:layout_editor_absoluteX="45dp"

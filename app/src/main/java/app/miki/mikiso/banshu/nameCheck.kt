@@ -35,6 +35,31 @@ class nameCheck : AppCompatActivity() {
            val Usuki = Intent(this,Usuki::class.java)
            startActivity(Usuki)
        }
+        ebisuAccessButton.setOnClickListener {
+            val EbisuAccess = Intent(this,EbisuAccess::class.java)
+            startActivity(EbisuAccess)
+        }
+        hamanomiyaAccessButton.setOnClickListener {
+            val HamanomiyaAccess = Intent (this,HamanomiyaAccess::class.java)
+            startActivity(HamanomiyaAccess)
+        }
+        matubaraAccessButton.setOnClickListener {
+            val MatubaraAccess = Intent (this,MatubaraAccess::class.java)
+            startActivity(MatubaraAccess)
+        }
+        oosioAccessButton.setOnClickListener {
+            val OosioAccess = Intent(this,OosioAccess::class.java)
+            startActivity(OosioAccess)
+        }
+        arakawaAccessButton.setOnClickListener {
+            val ArakawaAccess = Intent (this,ArakawaAccess::class.java)
+            startActivity(ArakawaAccess)
+        }
+        usukiAccessButton.setOnClickListener {
+            val UsukiAccess = Intent(this,UsukiAccess::class.java)
+            startActivity(UsukiAccess)
+        }
+
 
     }
 }
