@@ -4,12 +4,18 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_usuki.*
 
 class Usuki : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_usuki)
+
+        kibiRootButton.setOnClickListener {
+            val name = Intent(this,app.miki.mikiso.banshu.kibiRootButton::class.java)
+            startActivity(name)
+        }
 
         kibiButton.setOnClickListener {
             val gmmIntentUri =
@@ -18,6 +24,7 @@ class Usuki : AppCompatActivity() {
             mapIntent.setPackage("com.google.android.apps.maps")
             startActivity(mapIntent)
         }
+
         hiramatuButton.setOnClickListener {
             val gmmIntentUri =
                     Uri.parse("geo:0,0?q=姫路市大津区平松131　平松屋台蔵")

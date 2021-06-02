@@ -17,7 +17,7 @@ class EbisuAccess : AppCompatActivity() {
     // 地名を入れて経路を検索
     private fun test0() {
         // 起点
-        val start = "山陽飾磨駅"
+        val start = "飾磨駅"
 
 
         // 目的地

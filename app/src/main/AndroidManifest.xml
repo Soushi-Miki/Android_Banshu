@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Banshu">
-        <activity android:name=".UsukiAccess"></activity>
+        <activity android:name=".kibiRootButton"></activity>
+        <activity android:name=".UsukiAccess" />
         <activity android:name=".MatubaraAccess" />
         <activity android:name=".ArakawaAccess" />
         <activity android:name=".OosioAccess" />
