@@ -26,10 +26,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="34dp"
         android:background="#FD0303"
         android:fontFamily="serif"
         android:text="宮本丁"
         android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/nakanotyouButton"
         app:layout_constraintStart_toEndOf="@+id/higasinotyouButton"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -37,7 +39,6 @@
         android:id="@+id/nakanotyouButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="45dp"
         android:layout_marginBottom="20dp"
@@ -47,7 +48,6 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/nisihamaButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/miyamototyouButton"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -69,10 +69,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="34dp"
         android:background="#FFFFFF"
         android:fontFamily="serif"
         android:text="北脇"
         android:textColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/nisihamaButton"
         app:layout_constraintStart_toEndOf="@+id/nisinotyouButton"
         app:layout_constraintTop_toBottomOf="@+id/miyamototyouButton" />
 
@@ -80,7 +82,6 @@
         android:id="@+id/nisihamaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="45dp"
         android:background="#64DD17"
@@ -88,7 +89,6 @@
         android:text="西濱"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/kitawakiButton"
         app:layout_constraintTop_toBottomOf="@+id/nakanotyouButton" />
 
     <TextView
@@ -124,9 +124,9 @@
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="292dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -141,7 +141,6 @@
                 android:layout_height="39dp"
                 android:layout_marginStart="34dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginEnd="185dp"
                 android:fontFamily="serif"
                 android:text="見所1：場所を確認"
                 android:textColor="#000000"
@@ -156,11 +155,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="34dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="103dp"
                 android:fontFamily="serif"
                 android:text="10月14日午前11時ごろ宮入り・練り合わせ"
                 android:textColor="#000000"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/oosioMidokoro1Button" />
@@ -171,11 +169,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="34dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="196dp"
                 android:fontFamily="serif"
                 android:text="10月14日午後6時ごろ獅子舞"
                 android:textColor="#000000"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView22" />
@@ -186,12 +183,10 @@
                 android:layout_height="39dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginEnd="283dp"
                 android:fontFamily="serif"
                 android:text="見所2"
                 android:textColor="#000000"
                 android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
@@ -201,7 +196,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="34dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="166dp"
                 android:fontFamily="serif"
                 android:text="10月14日午後0時30分練り合わせ"
                 android:textColor="#000000"
@@ -216,12 +210,10 @@
                 android:layout_height="39dp"
                 android:layout_marginStart="34dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginEnd="281dp"
                 android:fontFamily="serif"
                 android:text="見所3"
                 android:textColor="#000000"
                 android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
@@ -231,7 +223,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="34dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="25dp"
                 android:fontFamily="serif"
                 android:text="10月15日午前8時ごろ御面掛神事・午前10時ごろ宮入り"
                 android:textColor="#000000"
@@ -246,7 +237,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="34dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="196dp"
                 android:fontFamily="serif"
                 android:text="10月15日午後2時ごろ獅子舞"
                 android:textColor="#000000"
@@ -260,14 +250,11 @@
                 android:layout_height="39dp"
                 android:layout_marginStart="34dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginEnd="281dp"
-                android:layout_marginBottom="9dp"
+                android:layout_marginBottom="10dp"
                 android:fontFamily="serif"
                 android:text="見所4"
                 android:textColor="#000000"
                 android:textSize="16sp"
-                app:layout_constraintBottom_toTopOf="@+id/textView27"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView26" />
 
@@ -276,15 +263,13 @@
                 android:layout_width="352dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="34dp"
-                android:layout_marginEnd="140dp"
-                android:layout_marginBottom="72dp"
+                android:layout_marginBottom="20dp"
                 android:fontFamily="serif"
                 android:text="10月15日午後8時ごろ屋台練り合わせ"
                 android:textColor="#000000"
-                android:textSize="18sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/oosioMidokoro4Button" />
 
         </LinearLayout>
     </ScrollView>

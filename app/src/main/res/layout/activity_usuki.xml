@@ -42,11 +42,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
         android:background="#FF9595"
         android:fontFamily="serif"
         android:text="平松"
         android:textColor="#000000"
         android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/nagamatuButton"
         app:layout_constraintStart_toEndOf="@+id/kibiButton"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -54,7 +56,6 @@
         android:id="@+id/nagamatuButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="27dp"
         android:background="#00ACC6"
@@ -63,14 +64,12 @@
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/hiramatuButton"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/ooesimaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="27dp"
         android:background="#E84A4A"
@@ -79,7 +78,6 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/nisidoiButton"
         app:layout_constraintTop_toBottomOf="@+id/nagamatuButton" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -103,11 +101,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
         android:background="#FFFFFF"
         android:fontFamily="serif"
         android:text="西土井"
         android:textColor="#000000"
         android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/ooesimaButton"
         app:layout_constraintStart_toEndOf="@+id/tenmaButton"
         app:layout_constraintTop_toBottomOf="@+id/hiramatuButton" />
 
@@ -115,7 +115,6 @@
         android:id="@+id/yoroButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="27dp"
         android:background="#FFFFFF"
@@ -124,7 +123,6 @@
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/sakanoueButton"
         app:layout_constraintTop_toBottomOf="@+id/tuitibakitaButton" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -133,11 +131,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
         android:background="#FF6D00"
         android:fontFamily="serif"
         android:text="田井"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/miyataButton"
         app:layout_constraintStart_toEndOf="@+id/kumamiButton"
         app:layout_constraintTop_toBottomOf="@+id/sakanoueButton" />
 
@@ -145,7 +145,6 @@
         android:id="@+id/miyataButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="27dp"
         android:background="#FF0707"
@@ -154,7 +153,6 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/taiButton"
         app:layout_constraintTop_toBottomOf="@+id/yoroButton" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -177,11 +175,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
         android:background="#FF63A9"
         android:fontFamily="serif"
         android:text="興浜"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/yokohamaButton"
         app:layout_constraintStart_toEndOf="@+id/sinzaikeButton"
         app:layout_constraintTop_toBottomOf="@+id/taiButton" />
 
@@ -205,11 +205,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
         android:background="#00C853"
         android:fontFamily="serif"
         android:text="糸井"
         android:textColor="#000000"
         android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/wakuButton"
         app:layout_constraintStart_toEndOf="@+id/takataButton"
         app:layout_constraintTop_toBottomOf="@+id/nisidoiButton" />
 
@@ -233,11 +235,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
         android:background="#FF1F1F"
         android:fontFamily="serif"
         android:text="坂上"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/yoroButton"
         app:layout_constraintStart_toEndOf="@+id/hukuiButton"
         app:layout_constraintTop_toBottomOf="@+id/tuitibaButton" />
 
@@ -259,7 +263,6 @@
         android:id="@+id/wakuButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="27dp"
         android:background="#FFFFFF"
@@ -268,7 +271,6 @@
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/itoiButton"
         app:layout_constraintTop_toBottomOf="@+id/ooesimaButton" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -292,11 +294,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
         android:background="#FF5050"
         android:fontFamily="serif"
         android:text="津市場"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/tuitibakitaButton"
         app:layout_constraintStart_toEndOf="@+id/sakadeButton"
         app:layout_constraintTop_toBottomOf="@+id/itoiButton" />
 
@@ -304,7 +308,6 @@
         android:id="@+id/tuitibakitaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="27dp"
         android:background="#FF04AB"
@@ -313,7 +316,6 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tuitibaButton"
         app:layout_constraintTop_toBottomOf="@+id/wakuButton" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -334,7 +336,6 @@
         android:id="@+id/yokohamaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="27dp"
         android:background="#FFD600"
@@ -342,7 +343,6 @@
         android:text="余子浜"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/okihamaButton"
         app:layout_constraintTop_toBottomOf="@+id/miyataButton" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -351,11 +351,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="155dp"
         android:background="#FF6D6D"
         android:fontFamily="serif"
         android:text="朝日谷"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/kaitiButton"
         app:layout_constraintTop_toBottomOf="@+id/okihamaButton" />
 

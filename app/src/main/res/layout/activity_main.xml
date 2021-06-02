@@ -7,34 +7,67 @@
     android:background="#FFD600"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/calenderButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="440dp"
-        android:background="#FF9494"
-        android:fontFamily="serif"
-        android:text="日程を確認する"
-        android:textSize="20sp"
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="450dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/shrineNameButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="40dp"
-        android:background="#8EF0FF"
-        android:fontFamily="serif"
-        android:text="神社の名前で確認する"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/scheduleMaturiButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/calenderButton" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/calenderButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="30dp"
+                android:background="#FF9494"
+                android:fontFamily="serif"
+                android:text="日程を確認する"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/shrineNameButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:background="#8EF0FF"
+                android:fontFamily="serif"
+                android:text="神社の名前で確認する"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/scheduleMaturiButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/calenderButton" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/scheduleMaturiButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginBottom="67dp"
+                android:background="#DDE38A"
+                android:fontFamily="serif"
+                android:text="行きたい祭りをメモ"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
 
     <TextView
         android:id="@+id/himeTextView"
@@ -42,10 +75,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40sp"
         android:layout_marginTop="35sp"
+        android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-black"
         android:text="姫"
         android:textColor="#000000"
         android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/ziTextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -55,10 +90,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="100sp"
         android:layout_marginTop="75sp"
+        android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-black"
         android:text="路"
         android:textColor="#000000"
         android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/noTextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -68,10 +105,12 @@
         android:layout_height="68dp"
         android:layout_marginStart="160sp"
         android:layout_marginTop="115sp"
+        android:layout_marginEnd="19dp"
         android:fontFamily="sans-serif-black"
         android:text="の"
         android:textColor="#000000"
         android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/akiTextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -81,10 +120,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="220sp"
         android:layout_marginTop="155sp"
+        android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-black"
         android:text="秋"
         android:textColor="#000000"
         android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/matuTextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -94,10 +135,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="280sp"
         android:layout_marginTop="195sp"
+        android:layout_marginEnd="21dp"
         android:fontFamily="sans-serif-black"
         android:text="祭"
         android:textColor="#000000"
         android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/riTeXtView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -107,10 +150,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="340sp"
         android:layout_marginTop="235sp"
+        android:layout_marginEnd="31dp"
         android:fontFamily="sans-serif-black"
         android:text="り"
         android:textColor="#000000"
         android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -146,17 +191,6 @@
         app:layout_constraintTop_toBottomOf="@+id/riTeXtView"
         app:srcCompat="@drawable/oosio1" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/scheduleMaturiButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="67dp"
-        android:background="#DDE38A"
-        android:fontFamily="serif"
-        android:text="行きたい祭りをメモ"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

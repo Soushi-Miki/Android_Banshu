@@ -152,6 +152,7 @@
         android:layout_height="match_parent"
         android:layout_marginTop="350dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -159,7 +160,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
 
 
             <androidx.appcompat.widget.AppCompatButton
@@ -177,9 +177,10 @@
 
             <TextView
                 android:id="@+id/textView10"
-                android:layout_width="wrap_content"
+                android:layout_width="313dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="34dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="serif"
                 android:text="10月9日午前9時ごろから恵美酒宮名物台場練り"
                 android:textColor="#000000"
@@ -202,7 +203,7 @@
 
             <TextView
                 android:id="@+id/textView11"
-                android:layout_width="wrap_content"
+                android:layout_width="334dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="34sp"
                 android:layout_marginTop="10sp"
@@ -224,7 +225,8 @@
                 android:textColor="#000000"
                 android:textSize="14sp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
 
             <TextView
                 android:id="@+id/textView12"
@@ -232,7 +234,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="34sp"
                 android:layout_marginTop="10sp"
-                android:layout_marginEnd="196sp"
                 android:fontFamily="serif"
                 android:text="10月9日午後7時ごろ4町差し別れ"
                 android:textColor="#000000"
@@ -246,21 +247,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="34sp"
-                android:layout_marginTop="11dp"
-                android:layout_marginEnd="280dp"
-                android:layout_marginBottom="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
                 android:fontFamily="serif"
                 android:text="見所4"
                 android:textColor="#000000"
                 android:textSize="14sp"
-                app:layout_constraintBottom_toTopOf="@+id/textView13"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
             <TextView
                 android:id="@+id/textView13"
-                android:layout_width="wrap_content"
+                android:layout_width="286dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="34dp"
                 android:layout_marginBottom="40dp"
@@ -271,10 +269,8 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
-    </LinearLayout>
+        </LinearLayout>
     </ScrollView>
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
