@@ -73,7 +73,7 @@
         android:id="@+id/himeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40sp"
+        android:layout_marginStart="39dp"
         android:layout_marginTop="35sp"
         android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-black"
@@ -88,7 +88,6 @@
         android:id="@+id/ziTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100sp"
         android:layout_marginTop="75sp"
         android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-black"
@@ -96,14 +95,12 @@
         android:textColor="#000000"
         android:textSize="40sp"
         app:layout_constraintEnd_toStartOf="@+id/noTextView"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/noTextView"
         android:layout_width="41dp"
         android:layout_height="68dp"
-        android:layout_marginStart="160sp"
         android:layout_marginTop="115sp"
         android:layout_marginEnd="19dp"
         android:fontFamily="sans-serif-black"
@@ -111,14 +108,12 @@
         android:textColor="#000000"
         android:textSize="40sp"
         app:layout_constraintEnd_toStartOf="@+id/akiTextView"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/akiTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="220sp"
         android:layout_marginTop="155sp"
         android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-black"
@@ -126,14 +121,12 @@
         android:textColor="#000000"
         android:textSize="40sp"
         app:layout_constraintEnd_toStartOf="@+id/matuTextView"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/matuTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="280sp"
         android:layout_marginTop="195sp"
         android:layout_marginEnd="21dp"
         android:fontFamily="sans-serif-black"
@@ -141,14 +134,12 @@
         android:textColor="#000000"
         android:textSize="40sp"
         app:layout_constraintEnd_toStartOf="@+id/riTeXtView"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/riTeXtView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="340sp"
         android:layout_marginTop="235sp"
         android:layout_marginEnd="31dp"
         android:fontFamily="sans-serif-black"
@@ -156,7 +147,6 @@
         android:textColor="#000000"
         android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
