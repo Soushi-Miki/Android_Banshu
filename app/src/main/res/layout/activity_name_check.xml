@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFD8A7"
+    android:background="@drawable/back2"
     tools:context=".nameCheck">
 
     <TextView
@@ -70,7 +70,7 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="10dp"
                 android:text="姫路市指定の重要無形民俗文化財"
-                android:textColor="#531704"
+                android:textColor="#000000"
                 tools:layout_editor_absoluteX="42dp"
                 tools:layout_editor_absoluteY="135dp" />
 
@@ -119,7 +119,7 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="10dp"
                 android:text="姫路市指定の重要無形民俗文化財"
-                android:textColor="#531704"
+                android:textColor="#000000"
                 tools:layout_editor_absoluteX="41dp"
                 tools:layout_editor_absoluteY="231dp" />
 
@@ -170,7 +170,7 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="10dp"
                 android:text="兵庫県指定の重要無形民俗文化財"
-                android:textColor="#531704"
+                android:textColor="#000000"
                 tools:layout_editor_absoluteX="41dp"
                 tools:layout_editor_absoluteY="317dp" />
 
@@ -181,7 +181,7 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="15dp"
                 android:text="姫路市指定の重要無形民俗文化財"
-                android:textColor="#531704"
+                android:textColor="#000000"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="345dp" />
 
@@ -233,7 +233,7 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="10dp"
                 android:text="兵庫県指定の重要無形民俗文化財"
-                android:textColor="#531704"
+                android:textColor="#000000"
                 tools:layout_editor_absoluteX="44dp"
                 tools:layout_editor_absoluteY="445dp" />
 
@@ -244,7 +244,7 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="15dp"
                 android:text="姫路市指定の重要無形民俗文化財"
-                android:textColor="#531704"
+                android:textColor="#000000"
                 tools:layout_editor_absoluteX="46dp"
                 tools:layout_editor_absoluteY="475dp" />
 
@@ -293,7 +293,7 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="10dp"
                 android:text="姫路市指定の重要無形民俗文化財"
-                android:textColor="#531704"
+                android:textColor="#000000"
                 tools:layout_editor_absoluteX="46dp"
                 tools:layout_editor_absoluteY="579dp" />
 
@@ -345,7 +345,7 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="10dp"
                 android:text="兵庫県指定の重要無形民俗文化財"
-                android:textColor="#531704"
+                android:textColor="#000000"
                 tools:layout_editor_absoluteX="45dp"
                 tools:layout_editor_absoluteY="678dp" />
 
@@ -356,7 +356,7 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="15dp"
                 android:text="姫路市指定の重要無形民俗文化財"
-                android:textColor="#531704"
+                android:textColor="#000000"
                 tools:layout_editor_absoluteX="48dp"
                 tools:layout_editor_absoluteY="704dp" />
 
