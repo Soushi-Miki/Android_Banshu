@@ -5,6 +5,8 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_arakawa.*
+import kotlinx.android.synthetic.main.activity_name_check.*
+import java.util.*
 
 class Arakawa : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -76,5 +78,7 @@ class Arakawa : AppCompatActivity() {
             startActivity(mapIntent)
         }
 
+
     }
+
 }
