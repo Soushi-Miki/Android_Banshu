@@ -10,32 +10,47 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Banshu">
-        <activity android:name=".scheduleMaturiList"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Schedule"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Usuki"
+        <activity android:name=".CheckMaturi"></activity>
+        <activity android:name=".MainActivity2" />
+        <activity
+            android:name=".scheduleMaturiList"
             android:screenOrientation="portrait" />
-        <activity android:name=".Arakawa"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Oosio"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Matubara"
+        <activity
+            android:name=".Schedule"
             android:screenOrientation="portrait" />
-        <activity android:name=".Hamanomiya"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Ebisu"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".calender2"
+        <activity
+            android:name=".Usuki"
             android:screenOrientation="portrait" />
-        <activity android:name=".nameCheck"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".shrineName"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".BanshuCalender"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivity"
-            android:screenOrientation="portrait" >
+        <activity
+            android:name=".Arakawa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Oosio"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Matubara"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Hamanomiya"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ebisu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calender2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".nameCheck"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shrineName"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BanshuCalender"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4EED0"
+    tools:context=".CheckMaturi">
+
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="serif"
+        android:text="気になった祭りをチェック"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/ebisunomiyacheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:text="恵美酒宮天満神社"
+                android:textSize="30sp" />
+
+            <CheckBox
+                android:id="@+id/hamanomiyacheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="serif"
+                android:text="浜の宮天満神社"
+                android:textSize="30sp" />
+
+            <CheckBox
+                android:id="@+id/oosiocheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="serif"
+                android:text="大塩天満宮"
+                android:textSize="30sp" />
+
+            <CheckBox
+                android:id="@+id/matubaracheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="serif"
+                android:text="松原八幡神社"
+                android:textSize="30sp" />
+
+            <CheckBox
+                android:id="@+id/arakawacheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="serif"
+                android:text="荒川神社"
+                android:textSize="30sp" />
+
+            <CheckBox
+                android:id="@+id/usukicheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginStart="40dp"
+                android:fontFamily="serif"
+                android:text="魚吹八幡神社"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

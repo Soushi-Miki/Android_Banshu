@@ -1,9 +1,11 @@
 package app.miki.mikiso.banshu
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
 import io.realm.Realm
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_schedule_maturi_list.*
 
 class scheduleMaturiList : AppCompatActivity() {
@@ -13,6 +15,12 @@ class scheduleMaturiList : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_schedule_maturi_list)
+
+        shrineCheckButton.setOnClickListener {
+            val check = Intent(this,CheckMaturi::class.java)
+            startActivity(check)
+
+        }
 
 
         val memo: Memo? = read()
