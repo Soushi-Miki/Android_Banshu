@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#FFFFFF"
+    android:background="#F4EED0"
     android:minHeight="72sp">
 
     <TextView
@@ -15,6 +15,7 @@
         android:layout_marginTop="12dp"
         android:fontFamily="sans-serif-black"
         android:text="恵美酒宮天満神社"
+        android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#F4EED0"
     tools:context=".shrineName">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -25,6 +25,7 @@
         android:layout_marginBottom="33dp"
         android:background="#AEEA00"
         android:text="カレンダーで確認する"
+        android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/recyclerView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

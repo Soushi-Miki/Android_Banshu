@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back2"
+    android:background="#F4EED0"
     tools:context=".Matubara">
 
     <androidx.appcompat.widget.AppCompatButton
@@ -16,8 +16,9 @@
         android:layout_marginBottom="20dp"
         android:background="#FFB5D6"
         android:fontFamily="serif"
-        android:text="東山"
+        android:text="東山:ひがしやま"
         android:textColor="#000000"
+        android:textSize="10sp"
         app:layout_constraintBottom_toTopOf="@+id/yakaButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
@@ -31,8 +32,9 @@
         android:layout_marginEnd="34dp"
         android:background="#64DD17"
         android:fontFamily="serif"
-        android:text="木場"
+        android:text="木場:きば"
         android:textColor="#000000"
+        android:textSize="10sp"
         app:layout_constraintEnd_toStartOf="@+id/matubaraButton1"
         app:layout_constraintStart_toEndOf="@+id/higasiyamaButton"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
@@ -45,8 +47,9 @@
         android:layout_marginEnd="45dp"
         android:background="#FF6D00"
         android:fontFamily="serif"
-        android:text="松原"
+        android:text="松原:まつばら"
         android:textColor="#FFFFFF"
+        android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -58,8 +61,9 @@
         android:layout_marginTop="20dp"
         android:background="#FF3434"
         android:fontFamily="serif"
-        android:text="八家"
+        android:text="八家:やか"
         android:textColor="#FFFFFF"
+        android:textSize="10sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/higasiyamaButton" />
 
@@ -72,8 +76,9 @@
         android:layout_marginEnd="34dp"
         android:background="#FB2C2C"
         android:fontFamily="serif"
-        android:text="妻鹿"
+        android:text="妻鹿:めが"
         android:textColor="#FFFFFF"
+        android:textSize="10sp"
         app:layout_constraintEnd_toStartOf="@+id/usazakiButton"
         app:layout_constraintStart_toEndOf="@+id/yakaButton"
         app:layout_constraintTop_toBottomOf="@+id/kibaButton" />
@@ -86,8 +91,9 @@
         android:layout_marginEnd="45dp"
         android:background="#FFD600"
         android:fontFamily="serif"
-        android:text="宇佐崎"
+        android:text="宇佐崎:うさざき"
         android:textColor="#000000"
+        android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/matubaraButton1" />
 
@@ -99,8 +105,9 @@
         android:layout_marginTop="20dp"
         android:background="#00B8D4"
         android:fontFamily="serif"
-        android:text="中村"
+        android:text="中村:なかむら"
         android:textColor="#000000"
+        android:textSize="10sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/yakaButton" />
 
@@ -110,7 +117,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:layout_marginBottom="61dp"
-        android:fontFamily="sans-serif-black"
+        android:fontFamily="serif"
         android:text="屋台蔵の場所を確認する"
         android:textColor="#000000"
         android:textSize="24sp"
@@ -124,7 +131,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:fontFamily="sans-serif-black"
+        android:fontFamily="serif"
         android:text="見所"
         android:textColor="#000000"
         android:textSize="20sp"
@@ -154,9 +161,10 @@
                 android:layout_height="40sp"
                 android:layout_marginStart="34dp"
                 android:layout_marginTop="40dp"
+                android:background="#FFFFFF"
                 android:fontFamily="serif"
                 android:text="見所1：場所を確認"
-                android:textColor="#000000"
+                android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView18" />
@@ -182,8 +190,9 @@
                 android:layout_marginStart="34dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginBottom="20dp"
+                android:background="#FFFFFF"
                 android:fontFamily="serif"
-                android:text="見所2"
+                android:text="見所2:場所を確認"
                 android:textColor="#000000"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"

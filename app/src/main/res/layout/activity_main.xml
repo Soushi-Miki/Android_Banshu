@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back1"
+    android:background="#F4EED0"
     tools:context=".MainActivity">
 
     <ScrollView
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="390dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -30,6 +30,7 @@
                 android:background="#FF9494"
                 android:fontFamily="serif"
                 android:text="日程を確認する"
+                android:textColor="#000000"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -45,6 +46,7 @@
                 android:background="#8EF0FF"
                 android:fontFamily="serif"
                 android:text="神社の名前で確認する"
+                android:textColor="#000000"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toTopOf="@+id/scheduleMaturiButton"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -61,6 +63,7 @@
                 android:background="#DDE38A"
                 android:fontFamily="serif"
                 android:text="行きたい祭りをメモ"
+                android:textColor="#000000"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -71,8 +74,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="394dp"
-        android:layout_height="339dp"
+        android:layout_width="360dp"
+        android:layout_height="300dp"
         android:layout_marginTop="53dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

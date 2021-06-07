@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C6EEF4"
+    android:background="#F4EED0"
     tools:context=".Schedule">
 
 
@@ -527,6 +527,7 @@
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
                 android:text="月"
+                android:textColor="#000000"
                 android:textSize="30sp" />
 
             <TextView
@@ -536,6 +537,7 @@
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
                 android:text="火"
+                android:textColor="#000000"
                 android:textSize="30sp" />
 
             <TextView
@@ -545,6 +547,7 @@
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
                 android:text="水"
+                android:textColor="#000000"
                 android:textSize="30sp" />
 
             <TextView
@@ -554,6 +557,7 @@
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
                 android:text="木"
+                android:textColor="#000000"
                 android:textSize="30sp" />
 
             <TextView
@@ -563,6 +567,7 @@
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
                 android:text="金"
+                android:textColor="#000000"
                 android:textSize="30sp" />
 
             <TextView
@@ -802,8 +807,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
