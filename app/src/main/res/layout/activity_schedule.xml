@@ -12,9 +12,9 @@
         android:id="@+id/ebisumiyaCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
+        android:layout_marginEnd="104dp"
         android:fontFamily="serif"
-        android:text="恵美酒"
+        android:text="←恵美酒→"
         android:textColor="#302D2D"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,39 +24,25 @@
         android:id="@+id/hamanomiyaCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
+        android:layout_marginEnd="104dp"
         android:fontFamily="serif"
-        android:text="浜の宮"
+        android:text="←浜の宮→"
         android:textColor="#302D2D"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ebisumiyaCalender" />
-
-    <TextView
-        android:id="@+id/c31TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="21dp"
-        android:layout_weight="1"
-        android:fontFamily="sans-serif-black"
-        android:text="31"
-        android:textColor="#D50000"
-        android:textSize="30sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
 
     <LinearLayout
         android:id="@+id/linearLayout6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="6dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="30dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/arakawaCalender">
+        app:layout_constraintTop_toBottomOf="@+id/agaCalender">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -69,22 +55,12 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
-                android:text="24"
-                android:textColor="#D50000"
-                android:textSize="30sp" />
-
-            <TextView
-                android:id="@+id/c25TextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="sans-serif-black"
                 android:text="25"
                 android:textColor="#000000"
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/c26TextView"
+                android:id="@+id/c25TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -94,7 +70,7 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/c27TextView"
+                android:id="@+id/c26TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -104,7 +80,7 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/c28TextView"
+                android:id="@+id/c27TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -114,13 +90,23 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/c29TextView"
+                android:id="@+id/c28TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
                 android:text="29"
-                android:textColor="@color/black"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/c29TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="30"
+                android:textColor="#304FEE"
                 android:textSize="30sp" />
 
             <TextView
@@ -129,8 +115,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
-                android:text="30"
-                android:textColor="#304FFE"
+                android:text="31"
+                android:textColor="#E53935"
                 android:textSize="30sp" />
 
         </LinearLayout>
@@ -141,7 +127,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="495dp"
+        android:layout_marginTop="470dp"
         android:layout_marginEnd="30dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -159,22 +145,12 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
-                android:text="17"
-                android:textColor="#D50000"
-                android:textSize="30sp" />
-
-            <TextView
-                android:id="@+id/c18TextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="sans-serif-black"
                 android:text="18"
                 android:textColor="#000000"
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/c19TextView"
+                android:id="@+id/c18TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -184,7 +160,7 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/c20TextView"
+                android:id="@+id/c19TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -194,7 +170,7 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/c21TextView"
+                android:id="@+id/c20TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -204,7 +180,7 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/c22TextView"
+                android:id="@+id/c21TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -214,13 +190,23 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/c23TextView"
+                android:id="@+id/c22TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
                 android:text="23"
-                android:textColor="#304FFE"
+                android:textColor="#304FEE"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/c23TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="24"
+                android:textColor="#E53935"
                 android:textSize="30sp" />
 
         </LinearLayout>
@@ -231,7 +217,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="380dp"
         android:layout_marginEnd="30dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -249,22 +235,12 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
-                android:text="10"
-                android:textColor="#D50000"
-                android:textSize="30sp" />
-
-            <TextView
-                android:id="@+id/c11TextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="sans-serif-black"
                 android:text="11"
                 android:textColor="#000000"
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/c12TextView"
+                android:id="@+id/c11TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -274,7 +250,7 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/c13TextView"
+                android:id="@+id/c12TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -284,7 +260,7 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/c14TextView"
+                android:id="@+id/c13TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -294,7 +270,7 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/c15TextView"
+                android:id="@+id/c14TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -304,13 +280,23 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/c16TextView"
+                android:id="@+id/c15TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
                 android:text="16"
-                android:textColor="#304FFE"
+                android:textColor="#304FEE"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/c16TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="17"
+                android:textColor="#E53935"
                 android:textSize="30sp" />
         </LinearLayout>
     </LinearLayout>
@@ -338,22 +324,12 @@
                 android:layout_height="38dp"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
-                android:text=" 3  "
-                android:textColor="#D50000"
-                android:textSize="30sp" />
-
-            <TextView
-                android:id="@+id/c4TextView"
-                android:layout_width="34dp"
-                android:layout_height="38dp"
-                android:layout_weight="1"
-                android:fontFamily="sans-serif-black"
                 android:text=" 4  "
                 android:textColor="#000000"
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/c5TextView"
+                android:id="@+id/c4TextView"
                 android:layout_width="34dp"
                 android:layout_height="38dp"
                 android:layout_weight="1"
@@ -363,7 +339,7 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/c6TextView"
+                android:id="@+id/c5TextView"
                 android:layout_width="34dp"
                 android:layout_height="38dp"
                 android:layout_weight="1"
@@ -373,7 +349,7 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/c7TextView"
+                android:id="@+id/c6TextView"
                 android:layout_width="34dp"
                 android:layout_height="38dp"
                 android:layout_weight="1"
@@ -383,7 +359,7 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/c8TextView"
+                android:id="@+id/c7TextView"
                 android:layout_width="34dp"
                 android:layout_height="38dp"
                 android:layout_weight="1"
@@ -393,13 +369,23 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/c9TextView"
+                android:id="@+id/c8TextView"
                 android:layout_width="34dp"
                 android:layout_height="38dp"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
                 android:text=" 9  "
-                android:textColor="#304FFE"
+                android:textColor="#304FEE"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/c9TextView"
+                android:layout_width="34dp"
+                android:layout_height="38dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="10"
+                android:textColor="#E53935"
                 android:textSize="30sp" />
         </LinearLayout>
     </LinearLayout>
@@ -427,7 +413,7 @@
                 android:layout_height="60dp"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
-                android:text="26"
+                android:text="27"
                 android:textColor="#848585"
                 android:textSize="30sp" />
 
@@ -437,7 +423,7 @@
                 android:layout_height="60dp"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
-                android:text="27"
+                android:text="28"
                 android:textColor="#848585"
                 android:textSize="30sp" />
 
@@ -447,7 +433,7 @@
                 android:layout_height="60dp"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
-                android:text="28"
+                android:text="29"
                 android:textColor="#848585"
                 android:textSize="30sp" />
 
@@ -457,17 +443,17 @@
                 android:layout_height="60dp"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
-                android:text="29"
+                android:text="30"
                 android:textColor="#848585"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/black30TextView"
-                android:layout_width="wrap_content"
+                android:layout_width="34dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
-                android:text="30"
+                android:text=" 1"
                 android:textColor="#848585"
                 android:textSize="30sp" />
 
@@ -477,8 +463,8 @@
                 android:layout_height="60dp"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
-                android:text=" 1  "
-                android:textColor="#000000"
+                android:text=" 2"
+                android:textColor="#304FEE"
                 android:textSize="30sp" />
 
             <TextView
@@ -487,8 +473,8 @@
                 android:layout_height="60dp"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
-                android:text=" 2  "
-                android:textColor="#304FFE"
+                android:text=" 3  "
+                android:textColor="#E53935"
                 android:textSize="30sp" />
         </LinearLayout>
     </LinearLayout>
@@ -516,22 +502,12 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
-                android:text="日"
-                android:textColor="#FB2424"
-                android:textSize="30sp" />
-
-            <TextView
-                android:id="@+id/getuyoubiTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="sans-serif-black"
                 android:text="月"
                 android:textColor="#000000"
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/kayoubiTextView"
+                android:id="@+id/getuyoubiTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -541,7 +517,7 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/suiyoubiTextView"
+                android:id="@+id/kayoubiTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -551,7 +527,7 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/mokuyoubiTextView"
+                android:id="@+id/suiyoubiTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -561,7 +537,7 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/kinyoubiTextView"
+                android:id="@+id/mokuyoubiTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -571,7 +547,7 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/doyoubiTextView"
+                android:id="@+id/kinyoubiTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -579,149 +555,27 @@
                 android:text="土"
                 android:textColor="#0091EA"
                 android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/doyoubiTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="日"
+                android:textColor="#F46360"
+                android:textSize="30sp" />
         </LinearLayout>
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/shohatimanCalender"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:fontFamily="serif"
-        android:text="正八幡"
-        android:textColor="#302D2D"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/kabutohatimanCalender"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
-
-    <TextView
-        android:id="@+id/kabutohatimanCalender"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:fontFamily="serif"
-        android:text="甲八幡"
-        android:textColor="#302D2d"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/tudaCalender"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/shohatimanCalender" />
-
-    <TextView
-        android:id="@+id/tudaCalender"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="38dp"
-        android:fontFamily="serif"
-        android:text="津田"
-        android:textColor="#302D2D"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/nakasimaCalender"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/kabutohatimanCalender" />
-
-    <TextView
-        android:id="@+id/nakasimaCalender"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="38dp"
-        android:fontFamily="serif"
-        android:text="中島"
-        android:textColor="#302D2D"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/takaokaCalender"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tudaCalender" />
-
-    <TextView
-        android:id="@+id/takaokaCalender"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="38dp"
-        android:fontFamily="serif"
-        android:text="高岳"
-        android:textColor="#302D2D"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/kamadaCalender"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nakasimaCalender" />
-
-    <TextView
-        android:id="@+id/kamadaCalender"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="38dp"
-        android:fontFamily="serif"
-        android:text="蒲田"
-        android:textColor="#39341A"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/inaokaCalender"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/takaokaCalender" />
-
-    <TextView
-        android:id="@+id/inaokaCalender"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="38dp"
-        android:fontFamily="serif"
-        android:text="稲岡"
-        android:textColor="#302D2D"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/ikuyaCalender"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/kamadaCalender" />
-
-    <TextView
-        android:id="@+id/ikuyaCalender"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="38dp"
-        android:layout_marginBottom="1dp"
-        android:fontFamily="serif"
-        android:text="生矢"
-        android:textColor="#302D2D"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/saiCalender"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inaokaCalender" />
-
-    <TextView
-        android:id="@+id/saiCalender"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="43dp"
-        android:fontFamily="serif"
-        android:text="才"
-        android:textColor="#302D2D"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/sugawaraCalender"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ikuyaCalender" />
-
-    <TextView
-        android:id="@+id/sugawaraCalender"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="38dp"
-        android:fontFamily="serif"
-        android:text="菅原"
-        android:textColor="#302D2D"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/saiCalender" />
 
     <TextView
         android:id="@+id/minatoCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="30dp"
         android:fontFamily="serif"
-        android:text="湊"
+        android:text="←湊→"
         android:textColor="#302D2D"
-        android:textSize="14sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toStartOf="@+id/matubaraCalender"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
 
@@ -729,71 +583,47 @@
         android:id="@+id/matubaraCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="110dp"
+        android:layout_marginEnd="31dp"
         android:fontFamily="serif"
-        android:text="松原"
+        android:text="←松原→"
         android:textColor="#302D2D"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/arakawaCalender"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
 
     <TextView
         android:id="@+id/oosioCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="110dp"
+        android:layout_marginEnd="31dp"
         android:fontFamily="serif"
-        android:text="大塩"
+        android:text="←大塩→"
         android:textColor="#302D2D"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/hirohataCalender"
         app:layout_constraintTop_toBottomOf="@+id/matubaraCalender" />
-
-    <TextView
-        android:id="@+id/hirohataCalender"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="38dp"
-        android:fontFamily="serif"
-        android:text="廣畑"
-        android:textColor="#302D2D"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
-
-    <TextView
-        android:id="@+id/arakawaCalender"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="38dp"
-        android:fontFamily="serif"
-        android:text="荒川"
-        android:textColor="#302D2D"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hirohataCalender" />
 
     <TextView
         android:id="@+id/agaCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
+        android:layout_marginStart="40dp"
         android:fontFamily="serif"
         android:text="英賀"
         android:textColor="#302D2D"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/hirohataCalender"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
 
     <TextView
         android:id="@+id/usukiCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="110dp"
+        android:layout_marginEnd="144dp"
         android:fontFamily="serif"
-        android:text="魚吹"
+        android:text="←魚吹→"
         android:textColor="#302D2D"
-        android:textSize="14sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
 
@@ -807,6 +637,150 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/arakawaCalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="45dp"
+        android:fontFamily="serif"
+        android:text="←荒川→"
+        android:textColor="#302D2D"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+    <TextView
+        android:id="@+id/hirohataCalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="45dp"
+        android:fontFamily="serif"
+        android:text="←廣畑→"
+        android:textColor="#302D2D"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/arakawaCalender" />
+
+    <TextView
+        android:id="@+id/shohatiCalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="34dp"
+        android:fontFamily="serif"
+        android:text="←正八幡→"
+        android:textColor="#302D2D"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+    <TextView
+        android:id="@+id/kabutoCalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="34dp"
+        android:fontFamily="serif"
+        android:text="←甲八幡→"
+        android:textColor="#302D2D"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shohatiCalender" />
+
+    <TextView
+        android:id="@+id/tudaCalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="38dp"
+        android:fontFamily="serif"
+        android:text="←津田→"
+        android:textColor="#302D2D"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kabutoCalender" />
+
+    <TextView
+        android:id="@+id/nakasimaCalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="38dp"
+        android:fontFamily="serif"
+        android:text="←中島→"
+        android:textColor="#302D2D"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tudaCalender" />
+
+    <TextView
+        android:id="@+id/takaokaCalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="38dp"
+        android:fontFamily="serif"
+        android:text="←高岳→"
+        android:textColor="#302D2D"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nakasimaCalender" />
+
+    <TextView
+        android:id="@+id/kamadaCalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="38dp"
+        android:fontFamily="serif"
+        android:text="←蒲田→"
+        android:textColor="#302D2D"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/takaokaCalender" />
+
+    <TextView
+        android:id="@+id/inaokaCalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="38dp"
+        android:fontFamily="serif"
+        android:text="←稲岡→"
+        android:textColor="#302D2D"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kamadaCalender" />
+
+    <TextView
+        android:id="@+id/ikuyaCalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="38dp"
+        android:fontFamily="serif"
+        android:text="←生矢→"
+        android:textColor="#302D2D"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inaokaCalender" />
+
+    <TextView
+        android:id="@+id/saiCalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:fontFamily="serif"
+        android:text="←才→"
+        android:textColor="#302D2D"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sugawaraCalender" />
+
+    <TextView
+        android:id="@+id/sugawaraCalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="38dp"
+        android:fontFamily="serif"
+        android:text="←菅原→"
+        android:textColor="#302D2D"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ikuyaCalender" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
