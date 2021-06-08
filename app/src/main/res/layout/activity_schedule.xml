@@ -454,7 +454,7 @@
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
                 android:text=" 1"
-                android:textColor="#848585"
+                android:textColor="#000000"
                 android:textSize="30sp" />
 
             <TextView
