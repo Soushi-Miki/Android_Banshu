@@ -97,10 +97,10 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/saveButon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="92dp"
+        android:layout_height="48dp"
         android:layout_marginTop="30dp"
-        android:background="#FFFFFF"
+        android:background="@drawable/mainback"
         android:fontFamily="sans-serif-black"
         android:text="保存"
         app:layout_constraintEnd_toEndOf="parent"
@@ -161,17 +161,29 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/shrineCheckButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="115dp"
+        android:layout_height="52dp"
         android:layout_marginStart="281dp"
         android:layout_marginEnd="34dp"
-        android:layout_marginBottom="90dp"
-        android:background="#F4EED0"
-        android:text="神社の名前をチェックする"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/usukiback"
+        android:fontFamily="sans-serif-black"
+        android:text="気になった祭りをチェック"
         android:textColor="#000000"
         android:textSize="8sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="127dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maturiScheduleList5"
+        app:srcCompat="@drawable/maturi3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
