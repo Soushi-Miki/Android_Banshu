@@ -116,7 +116,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="10dp"
-                android:text="自慢は神輿ぶつけ"
+                android:text="自慢はぶつかり合う神輿"
                 android:textColor="#B16D6D"
                 android:textSize="18sp" />
 
